@@ -1,0 +1,68 @@
+:root {
+  --bg-primary: #06060e;
+  --bg-secondary: #0c0c1a;
+  --bg-card: rgba(12, 12, 30, 0.6);
+  --cyan: #00e5ff;
+  --cyan-dim: #00e5ff33;
+  --magenta: #ff2d95;
+  --magenta-dim: #ff2d9533;
+  --purple: #7b2ff7;
+  --purple-dim: #7b2ff733;
+  --text-primary: #e8eaed;
+  --text-secondary: #8b8fa3;
+  --text-muted: #4a4e69;
+  --gradient-cyan-purple: linear-gradient(135deg, var(--cyan), var(--purple));
+  --gradient-magenta-cyan: linear-gradient(135deg, var(--magenta), var(--cyan));
+  --glow-cyan: 0 0 20px var(--cyan-dim), 0 0 40px var(--cyan-dim);
+  --glow-magenta: 0 0 20px var(--magenta-dim), 0 0 40px var(--magenta-dim);
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--cyan-dim);
+  color: var(--cyan);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--cyan-dim);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cyan);
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: var(--magenta);
+}
