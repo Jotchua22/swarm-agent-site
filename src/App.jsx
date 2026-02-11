@@ -1,14 +1,15 @@
 import './App.css';
+import { useAccount } from 'wagmi';
 import { LanguageProvider } from './i18n/LanguageContext';
 import ParticleField from './components/ParticleField';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import HowItWorks from './components/HowItWorks';
-import CtaSection from './components/CtaSection';
+import LandingPage from './components/LandingPage';
+import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 
 function App() {
+  const { isConnected } = useAccount();
+
   return (
     <LanguageProvider>
       <div className="app">
@@ -16,10 +17,7 @@ function App() {
         <div className="grid-bg" />
         <div className="noise-overlay" />
         <Navbar />
-        <Hero />
-        <Features />
-        <HowItWorks />
-        <CtaSection />
+        {isConnected ? <Dashboard /> : <LandingPage />}
         <Footer />
       </div>
     </LanguageProvider>

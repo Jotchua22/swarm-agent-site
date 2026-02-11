@@ -37,6 +37,30 @@ export const translations = {
       btn: 'Join the Swarm →',
     },
     footer: 'Built by autonomous agents',
+    wallet: {
+      connect: 'Connect Wallet',
+      disconnect: 'Disconnect',
+      copyAddress: 'Copy Address',
+      copied: 'Copied!',
+    },
+    dashboard: {
+      title: 'Swarm Command Center',
+      subtitle: 'Monitor and deploy your autonomous agent swarm',
+      loading: 'Loading...',
+      deployer: {
+        title: 'Deploy Swarm',
+        types: { social: 'Social', dev: 'Dev', data: 'Data', workflow: 'Workflow' },
+        count: 'Agent Count',
+        deploy: 'Deploy Swarm',
+        deploying: 'Deploying...',
+        deployed: 'Deployed!',
+        agents: 'agents',
+      },
+      feed: {
+        title: 'Agent Activity',
+        statuses: { success: 'Complete', running: 'Running', warning: 'Warning' },
+      },
+    },
   },
 
   zh: {
@@ -77,6 +101,30 @@ export const translations = {
       btn: '加入蜂群 →',
     },
     footer: '由自主代理构建',
+    wallet: {
+      connect: '连接钱包',
+      disconnect: '断开连接',
+      copyAddress: '复制地址',
+      copied: '已复制!',
+    },
+    dashboard: {
+      title: '蜂群指挥中心',
+      subtitle: '监控和部署您的自主代理蜂群',
+      loading: '加载中...',
+      deployer: {
+        title: '部署蜂群',
+        types: { social: '社交', dev: '开发', data: '数据', workflow: '工作流' },
+        count: '代理数量',
+        deploy: '部署蜂群',
+        deploying: '部署中...',
+        deployed: '已部署!',
+        agents: '个代理',
+      },
+      feed: {
+        title: '代理活动',
+        statuses: { success: '完成', running: '运行中', warning: '警告' },
+      },
+    },
   },
 
   es: {
@@ -117,6 +165,30 @@ export const translations = {
       btn: 'Únete al Enjambre →',
     },
     footer: 'Construido por agentes autónomos',
+    wallet: {
+      connect: 'Conectar Billetera',
+      disconnect: 'Desconectar',
+      copyAddress: 'Copiar Dirección',
+      copied: 'Copiado!',
+    },
+    dashboard: {
+      title: 'Centro de Mando del Enjambre',
+      subtitle: 'Monitorea y despliega tu enjambre de agentes autónomos',
+      loading: 'Cargando...',
+      deployer: {
+        title: 'Desplegar Enjambre',
+        types: { social: 'Social', dev: 'Dev', data: 'Datos', workflow: 'Flujo' },
+        count: 'Cantidad de Agentes',
+        deploy: 'Desplegar Enjambre',
+        deploying: 'Desplegando...',
+        deployed: 'Desplegado!',
+        agents: 'agentes',
+      },
+      feed: {
+        title: 'Actividad de Agentes',
+        statuses: { success: 'Completo', running: 'Ejecutando', warning: 'Advertencia' },
+      },
+    },
   },
 
   ja: {
@@ -157,6 +229,30 @@ export const translations = {
       btn: 'スウォームに参加 →',
     },
     footer: '自律エージェントによって構築',
+    wallet: {
+      connect: 'ウォレット接続',
+      disconnect: '切断',
+      copyAddress: 'アドレスをコピー',
+      copied: 'コピー済み!',
+    },
+    dashboard: {
+      title: 'スウォーム指揮センター',
+      subtitle: '自律エージェントスウォームの監視とデプロイ',
+      loading: '読み込み中...',
+      deployer: {
+        title: 'スウォームをデプロイ',
+        types: { social: 'ソーシャル', dev: '開発', data: 'データ', workflow: 'ワークフロー' },
+        count: 'エージェント数',
+        deploy: 'スウォームをデプロイ',
+        deploying: 'デプロイ中...',
+        deployed: 'デプロイ完了!',
+        agents: 'エージェント',
+      },
+      feed: {
+        title: 'エージェント活動',
+        statuses: { success: '完了', running: '実行中', warning: '警告' },
+      },
+    },
   },
 
   ko: {
@@ -197,6 +293,30 @@ export const translations = {
       btn: 'Swarm 참여하기 →',
     },
     footer: '자율 에이전트에 의해 구축됨',
+    wallet: {
+      connect: '지갑 연결',
+      disconnect: '연결 해제',
+      copyAddress: '주소 복사',
+      copied: '복사됨!',
+    },
+    dashboard: {
+      title: '스웜 지휘 센터',
+      subtitle: '자율 에이전트 스웜 모니터링 및 배포',
+      loading: '로딩 중...',
+      deployer: {
+        title: '스웜 배포',
+        types: { social: '소셜', dev: '개발', data: '데이터', workflow: '워크플로우' },
+        count: '에이전트 수',
+        deploy: '스웜 배포',
+        deploying: '배포 중...',
+        deployed: '배포 완료!',
+        agents: '에이전트',
+      },
+      feed: {
+        title: '에이전트 활동',
+        statuses: { success: '완료', running: '실행 중', warning: '경고' },
+      },
+    },
   },
 };
 
