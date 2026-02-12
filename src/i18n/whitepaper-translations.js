@@ -5,7 +5,7 @@ export const whitepaperTranslations = {
     heroTitle2: 'Protocol',
     heroDesc: 'A comprehensive technical overview of the autonomous AI agent swarm architecture, token economics, and development roadmap.',
     version: 'v1.0',
-    date: 'January 2025',
+    date: 'January 2026',
     tocTitle: 'Contents',
     toc: {
       abstract: 'Abstract',
@@ -60,10 +60,10 @@ export const whitepaperTranslations = {
     },
     roadmap: {
       phases: [
-        { label: 'Q1 2025', title: 'Foundation', items: ['Protocol architecture design', 'Core smart contract development', 'Testnet deployment', '$SWARM token launch on Base'] },
-        { label: 'Q2 2025', title: 'Alpha Launch', items: ['Main Agent v1 release', 'Dashboard beta', 'Social media swarm module', 'Community airdrop campaign'] },
-        { label: 'Q3 2025', title: 'Expansion', items: ['Dev acceleration swarm module', 'Data collection module', 'Staking & governance launch', 'Strategic partnerships'] },
-        { label: 'Q4 2025', title: 'Scale', items: ['Full API & SDK release', 'Cross-chain expansion', 'Enterprise solutions', 'DAO transition'] },
+        { label: 'Q1 2026', title: 'Foundation', items: ['Protocol architecture design', 'Core smart contract development', 'Testnet deployment', '$SWARM token launch on Base'] },
+        { label: 'Q2 2026', title: 'Alpha Launch', items: ['Main Agent v1 release', 'Dashboard beta', 'Social media swarm module', 'Community airdrop campaign'] },
+        { label: 'Q3 2026', title: 'Expansion', items: ['Dev acceleration swarm module', 'Data collection module', 'Staking & governance launch', 'Strategic partnerships'] },
+        { label: 'Q4 2026', title: 'Scale', items: ['Full API & SDK release', 'Cross-chain expansion', 'Enterprise solutions', 'DAO transition'] },
       ],
     },
     disclaimer: {
@@ -82,7 +82,7 @@ export const whitepaperTranslations = {
     heroTitle2: '\u534F\u8BAE',
     heroDesc: '\u5173\u4E8E\u81EA\u4E3B AI \u4EE3\u7406\u8702\u7FA4\u67B6\u6784\u3001\u4EE3\u5E01\u7ECF\u6D4E\u5B66\u548C\u5F00\u53D1\u8DEF\u7EBF\u56FE\u7684\u5168\u9762\u6280\u672F\u6982\u8FF0\u3002',
     version: 'v1.0',
-    date: '2025\u5E741\u6708',
+    date: '2026\u5E741\u6708',
     tocTitle: '\u76EE\u5F55',
     toc: {
       abstract: '\u6458\u8981',
@@ -137,10 +137,10 @@ export const whitepaperTranslations = {
     },
     roadmap: {
       phases: [
-        { label: 'Q1 2025', title: '\u57FA\u7840', items: ['\u534F\u8BAE\u67B6\u6784\u8BBE\u8BA1', '\u6838\u5FC3\u667A\u80FD\u5408\u7EA6\u5F00\u53D1', '\u6D4B\u8BD5\u7F51\u90E8\u7F72', '$SWARM\u4EE3\u5E01\u5728Base\u4E0A\u53D1\u5E03'] },
-        { label: 'Q2 2025', title: 'Alpha\u53D1\u5E03', items: ['\u4E3B\u4EE3\u7406v1\u53D1\u5E03', '\u4EEA\u8868\u76D8Beta\u7248', '\u793E\u4EA4\u5A92\u4F53\u8702\u7FA4\u6A21\u5757', '\u793E\u533A\u7A7A\u6295\u6D3B\u52A8'] },
-        { label: 'Q3 2025', title: '\u6269\u5C55', items: ['\u5F00\u53D1\u52A0\u901F\u8702\u7FA4\u6A21\u5757', '\u6570\u636E\u6536\u96C6\u6A21\u5757', '\u8D28\u62BC\u4E0E\u6CBB\u7406\u542F\u52A8', '\u6218\u7565\u5408\u4F5C\u4F19\u4F34\u5173\u7CFB'] },
-        { label: 'Q4 2025', title: '\u89C4\u6A21\u5316', items: ['\u5B8C\u6574API\u4E0ESDK\u53D1\u5E03', '\u8DE8\u94FE\u6269\u5C55', '\u4F01\u4E1A\u89E3\u51B3\u65B9\u6848', 'DAO\u8FC7\u6E21'] },
+        { label: 'Q1 2026', title: '\u57FA\u7840', items: ['\u534F\u8BAE\u67B6\u6784\u8BBE\u8BA1', '\u6838\u5FC3\u667A\u80FD\u5408\u7EA6\u5F00\u53D1', '\u6D4B\u8BD5\u7F51\u90E8\u7F72', '$SWARM\u4EE3\u5E01\u5728Base\u4E0A\u53D1\u5E03'] },
+        { label: 'Q2 2026', title: 'Alpha\u53D1\u5E03', items: ['\u4E3B\u4EE3\u7406v1\u53D1\u5E03', '\u4EEA\u8868\u76D8Beta\u7248', '\u793E\u4EA4\u5A92\u4F53\u8702\u7FA4\u6A21\u5757', '\u793E\u533A\u7A7A\u6295\u6D3B\u52A8'] },
+        { label: 'Q3 2026', title: '\u6269\u5C55', items: ['\u5F00\u53D1\u52A0\u901F\u8702\u7FA4\u6A21\u5757', '\u6570\u636E\u6536\u96C6\u6A21\u5757', '\u8D28\u62BC\u4E0E\u6CBB\u7406\u542F\u52A8', '\u6218\u7565\u5408\u4F5C\u4F19\u4F34\u5173\u7CFB'] },
+        { label: 'Q4 2026', title: '\u89C4\u6A21\u5316', items: ['\u5B8C\u6574API\u4E0ESDK\u53D1\u5E03', '\u8DE8\u94FE\u6269\u5C55', '\u4F01\u4E1A\u89E3\u51B3\u65B9\u6848', 'DAO\u8FC7\u6E21'] },
       ],
     },
     disclaimer: {
@@ -159,7 +159,7 @@ export const whitepaperTranslations = {
     heroTitle2: 'Protocolo',
     heroDesc: 'Una visi\u00F3n t\u00E9cnica completa de la arquitectura de enjambre de agentes IA aut\u00F3nomos, econom\u00EDa del token y hoja de ruta.',
     version: 'v1.0',
-    date: 'Enero 2025',
+    date: 'Enero 2026',
     tocTitle: 'Contenidos',
     toc: {
       abstract: 'Resumen',
@@ -214,10 +214,10 @@ export const whitepaperTranslations = {
     },
     roadmap: {
       phases: [
-        { label: 'Q1 2025', title: 'Fundaci\u00F3n', items: ['Dise\u00F1o de arquitectura', 'Desarrollo de contratos inteligentes', 'Despliegue en testnet', 'Lanzamiento de $SWARM en Base'] },
-        { label: 'Q2 2025', title: 'Lanzamiento Alpha', items: ['Agente Principal v1', 'Dashboard beta', 'M\u00F3dulo de enjambre social', 'Campa\u00F1a de airdrop'] },
-        { label: 'Q3 2025', title: 'Expansi\u00F3n', items: ['M\u00F3dulo de aceleraci\u00F3n dev', 'M\u00F3dulo de recolecci\u00F3n de datos', 'Lanzamiento de staking y gobernanza', 'Alianzas estrat\u00E9gicas'] },
-        { label: 'Q4 2025', title: 'Escala', items: ['API y SDK completo', 'Expansi\u00F3n cross-chain', 'Soluciones empresariales', 'Transici\u00F3n a DAO'] },
+        { label: 'Q1 2026', title: 'Fundaci\u00F3n', items: ['Dise\u00F1o de arquitectura', 'Desarrollo de contratos inteligentes', 'Despliegue en testnet', 'Lanzamiento de $SWARM en Base'] },
+        { label: 'Q2 2026', title: 'Lanzamiento Alpha', items: ['Agente Principal v1', 'Dashboard beta', 'M\u00F3dulo de enjambre social', 'Campa\u00F1a de airdrop'] },
+        { label: 'Q3 2026', title: 'Expansi\u00F3n', items: ['M\u00F3dulo de aceleraci\u00F3n dev', 'M\u00F3dulo de recolecci\u00F3n de datos', 'Lanzamiento de staking y gobernanza', 'Alianzas estrat\u00E9gicas'] },
+        { label: 'Q4 2026', title: 'Escala', items: ['API y SDK completo', 'Expansi\u00F3n cross-chain', 'Soluciones empresariales', 'Transici\u00F3n a DAO'] },
       ],
     },
     disclaimer: {
@@ -236,7 +236,7 @@ export const whitepaperTranslations = {
     heroTitle2: '\u30D7\u30ED\u30C8\u30B3\u30EB',
     heroDesc: '\u81EA\u5F8B\u578BAI\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30B9\u30A6\u30A9\u30FC\u30E0\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u3001\u30C8\u30FC\u30AF\u30F3\u30A8\u30B3\u30CE\u30DF\u30AF\u30B9\u3001\u958B\u767A\u30ED\u30FC\u30C9\u30DE\u30C3\u30D7\u306E\u5305\u62EC\u7684\u306A\u6280\u8853\u6982\u8981\u3002',
     version: 'v1.0',
-    date: '2025\u5E741\u6708',
+    date: '2026\u5E741\u6708',
     tocTitle: '\u76EE\u6B21',
     toc: {
       abstract: '\u6982\u8981',
@@ -291,10 +291,10 @@ export const whitepaperTranslations = {
     },
     roadmap: {
       phases: [
-        { label: 'Q1 2025', title: '\u57FA\u76E4', items: ['\u30D7\u30ED\u30C8\u30B3\u30EB\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u8A2D\u8A08', '\u30B3\u30A2\u30B9\u30DE\u30FC\u30C8\u30B3\u30F3\u30C8\u30E9\u30AF\u30C8\u958B\u767A', '\u30C6\u30B9\u30C8\u30CD\u30C3\u30C8\u30C7\u30D7\u30ED\u30A4', '$SWARM\u30C8\u30FC\u30AF\u30F3\u3092Base\u3067\u30ED\u30FC\u30F3\u30C1'] },
-        { label: 'Q2 2025', title: '\u30A2\u30EB\u30D5\u30A1\u30ED\u30FC\u30F3\u30C1', items: ['\u30E1\u30A4\u30F3\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8v1\u30EA\u30EA\u30FC\u30B9', '\u30C0\u30C3\u30B7\u30E5\u30DC\u30FC\u30C9\u30D9\u30FC\u30BF', '\u30BD\u30FC\u30B7\u30E3\u30EB\u30E1\u30C7\u30A3\u30A2\u30B9\u30A6\u30A9\u30FC\u30E0\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A8\u30A2\u30C9\u30ED\u30C3\u30D7\u30AD\u30E3\u30F3\u30DA\u30FC\u30F3'] },
-        { label: 'Q3 2025', title: '\u62E1\u5F35', items: ['\u958B\u767A\u52A0\u901F\u30B9\u30A6\u30A9\u30FC\u30E0\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30C7\u30FC\u30BF\u53CE\u96C6\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30B9\u30C6\u30FC\u30AD\u30F3\u30B0\u30FB\u30AC\u30D0\u30CA\u30F3\u30B9\u958B\u59CB', '\u6226\u7565\u7684\u30D1\u30FC\u30C8\u30CA\u30FC\u30B7\u30C3\u30D7'] },
-        { label: 'Q4 2025', title: '\u30B9\u30B1\u30FC\u30EB', items: ['\u5B8C\u5168\u306AAPI\u30FBSDK\u30EA\u30EA\u30FC\u30B9', '\u30AF\u30ED\u30B9\u30C1\u30A7\u30FC\u30F3\u62E1\u5F35', '\u30A8\u30F3\u30BF\u30FC\u30D7\u30E9\u30A4\u30BA\u30BD\u30EA\u30E5\u30FC\u30B7\u30E7\u30F3', 'DAO\u79FB\u884C'] },
+        { label: 'Q1 2026', title: '\u57FA\u76E4', items: ['\u30D7\u30ED\u30C8\u30B3\u30EB\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u8A2D\u8A08', '\u30B3\u30A2\u30B9\u30DE\u30FC\u30C8\u30B3\u30F3\u30C8\u30E9\u30AF\u30C8\u958B\u767A', '\u30C6\u30B9\u30C8\u30CD\u30C3\u30C8\u30C7\u30D7\u30ED\u30A4', '$SWARM\u30C8\u30FC\u30AF\u30F3\u3092Base\u3067\u30ED\u30FC\u30F3\u30C1'] },
+        { label: 'Q2 2026', title: '\u30A2\u30EB\u30D5\u30A1\u30ED\u30FC\u30F3\u30C1', items: ['\u30E1\u30A4\u30F3\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8v1\u30EA\u30EA\u30FC\u30B9', '\u30C0\u30C3\u30B7\u30E5\u30DC\u30FC\u30C9\u30D9\u30FC\u30BF', '\u30BD\u30FC\u30B7\u30E3\u30EB\u30E1\u30C7\u30A3\u30A2\u30B9\u30A6\u30A9\u30FC\u30E0\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A8\u30A2\u30C9\u30ED\u30C3\u30D7\u30AD\u30E3\u30F3\u30DA\u30FC\u30F3'] },
+        { label: 'Q3 2026', title: '\u62E1\u5F35', items: ['\u958B\u767A\u52A0\u901F\u30B9\u30A6\u30A9\u30FC\u30E0\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30C7\u30FC\u30BF\u53CE\u96C6\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30B9\u30C6\u30FC\u30AD\u30F3\u30B0\u30FB\u30AC\u30D0\u30CA\u30F3\u30B9\u958B\u59CB', '\u6226\u7565\u7684\u30D1\u30FC\u30C8\u30CA\u30FC\u30B7\u30C3\u30D7'] },
+        { label: 'Q4 2026', title: '\u30B9\u30B1\u30FC\u30EB', items: ['\u5B8C\u5168\u306AAPI\u30FBSDK\u30EA\u30EA\u30FC\u30B9', '\u30AF\u30ED\u30B9\u30C1\u30A7\u30FC\u30F3\u62E1\u5F35', '\u30A8\u30F3\u30BF\u30FC\u30D7\u30E9\u30A4\u30BA\u30BD\u30EA\u30E5\u30FC\u30B7\u30E7\u30F3', 'DAO\u79FB\u884C'] },
       ],
     },
     disclaimer: {
@@ -313,7 +313,7 @@ export const whitepaperTranslations = {
     heroTitle2: '\uD504\uB85C\uD1A0\uCF5C',
     heroDesc: '\uC790\uC728 AI \uC5D0\uC774\uC804\uD2B8 \uC2A4\uC6DC \uC544\uD0A4\uD14D\uCC98, \uD1A0\uD070 \uC774\uCF54\uB178\uBBF9\uC2A4, \uAC1C\uBC1C \uB85C\uB4DC\uB9F5\uC5D0 \uB300\uD55C \uD3EC\uAD04\uC801\uC778 \uAE30\uC220 \uAC1C\uC694\uC785\uB2C8\uB2E4.',
     version: 'v1.0',
-    date: '2025\uB144 1\uC6D4',
+    date: '2026\uB144 1\uC6D4',
     tocTitle: '\uBAA9\uCC28',
     toc: {
       abstract: '\uAC1C\uC694',
@@ -368,10 +368,10 @@ export const whitepaperTranslations = {
     },
     roadmap: {
       phases: [
-        { label: 'Q1 2025', title: '\uAE30\uBC18', items: ['\uD504\uB85C\uD1A0\uCF5C \uC544\uD0A4\uD14D\uCC98 \uC124\uACC4', '\uCF54\uC5B4 \uC2A4\uB9C8\uD2B8 \uCEE8\uD2B8\uB799\uD2B8 \uAC1C\uBC1C', '\uD14C\uC2A4\uD2B8\uB137 \uBC30\uD3EC', '$SWARM \uD1A0\uD070 Base \uB860\uCE6D'] },
-        { label: 'Q2 2025', title: '\uC54C\uD30C \uB860\uCE6D', items: ['\uBA54\uC778 \uC5D0\uC774\uC804\uD2B8 v1 \uCD9C\uC2DC', '\uB300\uC2DC\uBCF4\uB4DC \uBCA0\uD0C0', '\uC18C\uC15C \uBBF8\uB514\uC5B4 \uC2A4\uC6DC \uBAA8\uB4C8', '\uCEE4\uBBA4\uB2C8\uD2F0 \uC5D0\uC5B4\uB4DC\uB86D \uCEA0\uD398\uC778'] },
-        { label: 'Q3 2025', title: '\uD655\uC7A5', items: ['\uAC1C\uBC1C \uAC00\uC18D\uD654 \uC2A4\uC6DC \uBAA8\uB4C8', '\uB370\uC774\uD130 \uC218\uC9D1 \uBAA8\uB4C8', '\uC2A4\uD14C\uC774\uD0B9 \uBC0F \uAC70\uBC84\uB10C\uC2A4 \uC2DC\uC791', '\uC804\uB7B5\uC801 \uD30C\uD2B8\uB108\uC2ED'] },
-        { label: 'Q4 2025', title: '\uC2A4\uCF00\uC77C', items: ['\uC644\uC804\uD55C API \uBC0F SDK \uCD9C\uC2DC', '\uD06C\uB85C\uC2A4\uCCB4\uC778 \uD655\uC7A5', '\uC5D4\uD130\uD504\uB77C\uC774\uC988 \uC194\uB8E8\uC158', 'DAO \uC804\uD658'] },
+        { label: 'Q1 2026', title: '\uAE30\uBC18', items: ['\uD504\uB85C\uD1A0\uCF5C \uC544\uD0A4\uD14D\uCC98 \uC124\uACC4', '\uCF54\uC5B4 \uC2A4\uB9C8\uD2B8 \uCEE8\uD2B8\uB799\uD2B8 \uAC1C\uBC1C', '\uD14C\uC2A4\uD2B8\uB137 \uBC30\uD3EC', '$SWARM \uD1A0\uD070 Base \uB860\uCE6D'] },
+        { label: 'Q2 2026', title: '\uC54C\uD30C \uB860\uCE6D', items: ['\uBA54\uC778 \uC5D0\uC774\uC804\uD2B8 v1 \uCD9C\uC2DC', '\uB300\uC2DC\uBCF4\uB4DC \uBCA0\uD0C0', '\uC18C\uC15C \uBBF8\uB514\uC5B4 \uC2A4\uC6DC \uBAA8\uB4C8', '\uCEE4\uBBA4\uB2C8\uD2F0 \uC5D0\uC5B4\uB4DC\uB86D \uCEA0\uD398\uC778'] },
+        { label: 'Q3 2026', title: '\uD655\uC7A5', items: ['\uAC1C\uBC1C \uAC00\uC18D\uD654 \uC2A4\uC6DC \uBAA8\uB4C8', '\uB370\uC774\uD130 \uC218\uC9D1 \uBAA8\uB4C8', '\uC2A4\uD14C\uC774\uD0B9 \uBC0F \uAC70\uBC84\uB10C\uC2A4 \uC2DC\uC791', '\uC804\uB7B5\uC801 \uD30C\uD2B8\uB108\uC2ED'] },
+        { label: 'Q4 2026', title: '\uC2A4\uCF00\uC77C', items: ['\uC644\uC804\uD55C API \uBC0F SDK \uCD9C\uC2DC', '\uD06C\uB85C\uC2A4\uCCB4\uC778 \uD655\uC7A5', '\uC5D4\uD130\uD504\uB77C\uC774\uC988 \uC194\uB8E8\uC158', 'DAO \uC804\uD658'] },
       ],
     },
     disclaimer: {

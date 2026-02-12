@@ -15,13 +15,11 @@ export default function Footer() {
           <Link to="/tokenomics">$SWARM</Link>
           <Link to="/whitepaper">{t.nav.whitepaper}</Link>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter/X</a>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord</a>
-          <a href="https://t.me" target="_blank" rel="noopener noreferrer">Telegram</a>
         </div>
       </div>
       <div className="footer-bottom">
         <p className="footer-text">
-          &copy; 2025 <span>SubAgent Swarm</span> &mdash; {t.footer.built}
+          &copy; 2026 <span>SubAgent Swarm</span> &mdash; {t.footer.built}
         </p>
       </div>
     </footer>
