@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LanguageContext';
 
 export default function Footer() {
@@ -5,9 +6,24 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <p className="footer-text">
-        © 2025 <span>SubAgent Swarm</span> — {t.footer}
-      </p>
+      <div className="footer-inner">
+        <div className="footer-brand">
+          <div className="footer-logo">SUBAGENT SWARM</div>
+          <p className="footer-tagline">{t.footer.tagline}</p>
+        </div>
+        <div className="footer-links">
+          <Link to="/tokenomics">$SWARM</Link>
+          <Link to="/whitepaper">{t.nav.whitepaper}</Link>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord</a>
+          <a href="https://t.me" target="_blank" rel="noopener noreferrer">Telegram</a>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p className="footer-text">
+          &copy; 2025 <span>SubAgent Swarm</span> &mdash; {t.footer.built}
+        </p>
+      </div>
     </footer>
   );
 }

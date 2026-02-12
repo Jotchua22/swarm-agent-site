@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    nav: { features: 'Features', howItWorks: 'How It Works', getStarted: 'Get Started', launchApp: 'Launch App' },
+    nav: { features: 'Features', howItWorks: 'How It Works', getStarted: 'Get Started', launchApp: 'Launch App', tokenomics: '$SWARM', whitepaper: 'Whitepaper' },
     hero: {
       badge: 'AUTONOMOUS AI SWARM NETWORK',
       desc: 'A single main AI agent spawns thousands of sub-agent swarms to execute tasks in parallel. Complete a 2-hour project in just 5 minutes.',
@@ -36,7 +36,7 @@ export const translations = {
       desc: 'Register for Early Access and boost your productivity 100x with AI agent swarms.',
       btn: 'Join the Swarm →',
     },
-    footer: 'Built by autonomous agents',
+    footer: { tagline: 'Autonomous AI Agent Swarm Network', built: 'Built by autonomous agents' },
     wallet: {
       connect: 'Connect Wallet',
       disconnect: 'Disconnect',
@@ -64,7 +64,7 @@ export const translations = {
   },
 
   zh: {
-    nav: { features: '功能', howItWorks: '工作原理', getStarted: '开始使用', launchApp: '启动应用' },
+    nav: { features: '功能', howItWorks: '工作原理', getStarted: '开始使用', launchApp: '启动应用', tokenomics: '$SWARM', whitepaper: '白皮书' },
     hero: {
       badge: '自主AI蜂群网络',
       desc: '一个主AI代理生成数千个子代理蜂群，并行执行任务。将2小时的项目在5分钟内完成。',
@@ -100,7 +100,7 @@ export const translations = {
       desc: '注册早期访问，通过AI代理蜂群将您的生产力提升100倍。',
       btn: '加入蜂群 →',
     },
-    footer: '由自主代理构建',
+    footer: { tagline: '自主AI代理蜂群网络', built: '由自主代理构建' },
     wallet: {
       connect: '连接钱包',
       disconnect: '断开连接',
@@ -128,7 +128,7 @@ export const translations = {
   },
 
   es: {
-    nav: { features: 'Funciones', howItWorks: 'Cómo Funciona', getStarted: 'Comenzar', launchApp: 'Iniciar App' },
+    nav: { features: 'Funciones', howItWorks: 'Cómo Funciona', getStarted: 'Comenzar', launchApp: 'Iniciar App', tokenomics: '$SWARM', whitepaper: 'Whitepaper' },
     hero: {
       badge: 'RED AUTÓNOMA DE ENJAMBRE IA',
       desc: 'Un único agente IA principal genera miles de sub-agentes enjambre para ejecutar tareas en paralelo. Completa un proyecto de 2 horas en solo 5 minutos.',
@@ -164,7 +164,7 @@ export const translations = {
       desc: 'Regístrate para Acceso Anticipado y aumenta tu productividad 100x con enjambres de agentes IA.',
       btn: 'Únete al Enjambre →',
     },
-    footer: 'Construido por agentes autónomos',
+    footer: { tagline: 'Red Autónoma de Enjambre de Agentes IA', built: 'Construido por agentes autónomos' },
     wallet: {
       connect: 'Conectar Billetera',
       disconnect: 'Desconectar',
@@ -192,7 +192,7 @@ export const translations = {
   },
 
   ja: {
-    nav: { features: '機能', howItWorks: '仕組み', getStarted: '始める', launchApp: 'アプリ起動' },
+    nav: { features: '機能', howItWorks: '仕組み', getStarted: '始める', launchApp: 'アプリ起動', tokenomics: '$SWARM', whitepaper: 'ホワイトペーパー' },
     hero: {
       badge: '自律型AIスウォームネットワーク',
       desc: '1つのメインAIエージェントが数千のサブエージェントスウォームを生成し、タスクを並列実行します。2時間のプロジェクトをわずか5分で完了。',
@@ -228,7 +228,7 @@ export const translations = {
       desc: 'アーリーアクセスに登録し、AIエージェントスウォームで生産性を100倍に。',
       btn: 'スウォームに参加 →',
     },
-    footer: '自律エージェントによって構築',
+    footer: { tagline: '自律型AIエージェントスウォームネットワーク', built: '自律エージェントによって構築' },
     wallet: {
       connect: 'ウォレット接続',
       disconnect: '切断',
@@ -256,7 +256,7 @@ export const translations = {
   },
 
   ko: {
-    nav: { features: '기능', howItWorks: '작동 방식', getStarted: '시작하기', launchApp: '앱 실행' },
+    nav: { features: '기능', howItWorks: '작동 방식', getStarted: '시작하기', launchApp: '앱 실행', tokenomics: '$SWARM', whitepaper: '백서' },
     hero: {
       badge: '자율 AI 스웜 네트워크',
       desc: '하나의 메인 AI 에이전트가 수천 개의 서브 에이전트 스웜을 생성하여 작업을 병렬로 동시 수행합니다. 2시간 걸리는 프로젝트를 5분 만에 완료하세요.',
@@ -292,7 +292,7 @@ export const translations = {
       desc: 'Early Access에 등록하고, AI 에이전트 스웜으로 작업 효율을 100배 향상시키세요.',
       btn: 'Swarm 참여하기 →',
     },
-    footer: '자율 에이전트에 의해 구축됨',
+    footer: { tagline: '자율 AI 에이전트 스웜 네트워크', built: '자율 에이전트에 의해 구축됨' },
     wallet: {
       connect: '지갑 연결',
       disconnect: '연결 해제',

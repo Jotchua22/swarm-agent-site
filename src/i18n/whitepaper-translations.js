@@ -1,0 +1,386 @@
+export const whitepaperTranslations = {
+  en: {
+    badge: 'TECHNICAL WHITEPAPER',
+    heroTitle1: 'SubAgent Swarm',
+    heroTitle2: 'Protocol',
+    heroDesc: 'A comprehensive technical overview of the autonomous AI agent swarm architecture, token economics, and development roadmap.',
+    version: 'v1.0',
+    date: 'January 2025',
+    tocTitle: 'Contents',
+    toc: {
+      abstract: 'Abstract',
+      problem: 'Problem Statement',
+      solution: 'Our Solution',
+      architecture: 'Architecture',
+      token: 'Token Economics',
+      roadmap: 'Roadmap',
+    },
+    abstract: {
+      p1: 'SubAgent Swarm introduces a decentralized protocol for orchestrating autonomous AI agent swarms. By leveraging parallel processing and intelligent task decomposition, the protocol enables a single command to spawn thousands of specialized sub-agents that execute complex workflows simultaneously.',
+      p2: 'The $SWARM token serves as the native utility token powering agent deployments, governance, and staking rewards within the ecosystem. Built on Base (Layer 2), the protocol achieves high throughput and low costs while inheriting Ethereum\'s security guarantees.',
+      highlightTitle: 'Core Innovation',
+      highlightText: 'Transform 2-hour workflows into 5-minute operations through intelligent swarm orchestration and parallel sub-agent execution.',
+    },
+    problem: {
+      p1: 'The current landscape of AI agents faces several fundamental limitations that prevent widespread adoption and efficient task execution:',
+      points: [
+        { icon: '\u23F3', title: 'Sequential Bottleneck', desc: 'Traditional AI agents process tasks one at a time, creating massive bottlenecks for complex multi-step workflows.' },
+        { icon: '\uD83D\uDD12', title: 'Siloed Capabilities', desc: 'Existing agents are specialized for single domains, unable to coordinate across platforms and task types effectively.' },
+        { icon: '\uD83D\uDCC8', title: 'Scaling Limitations', desc: 'Current architectures cannot dynamically scale agent counts based on workload demands, leading to inefficiency.' },
+        { icon: '\uD83D\uDCB8', title: 'High Costs', desc: 'Running multiple independent AI services is expensive and requires complex integration and management overhead.' },
+      ],
+    },
+    solution: {
+      p1: 'SubAgent Swarm solves these problems through a novel swarm intelligence architecture that coordinates thousands of specialized agents in parallel:',
+      features: [
+        { title: 'Intelligent Task Decomposition', desc: 'The Main Agent analyzes complex requests and automatically breaks them into optimal sub-tasks, each designed for independent parallel execution.' },
+        { title: 'Dynamic Agent Spawning', desc: 'Sub-agents are created on-demand with specialized capabilities tailored to each sub-task, ensuring maximum efficiency and resource utilization.' },
+        { title: 'Real-Time Coordination', desc: 'A decentralized coordination layer manages inter-agent communication, error recovery, and result aggregation in real-time.' },
+        { title: 'On-Chain Verification', desc: 'Task completion and agent performance metrics are recorded on-chain, enabling transparent reward distribution and quality assurance.' },
+      ],
+    },
+    architecture: {
+      p1: 'The SubAgent Swarm protocol is built on a modular, layered architecture designed for maximum scalability and extensibility:',
+      layers: [
+        { label: 'Application Layer', color: '#00e5ff', items: ['Dashboard UI', 'API Gateway', 'SDK / CLI'] },
+        { label: 'Orchestration Layer', color: '#7b2ff7', items: ['Main Agent', 'Task Decomposer', 'Swarm Coordinator'] },
+        { label: 'Execution Layer', color: '#ff2d95', items: ['Sub-Agent Pool', 'Parallel Runtime', 'Result Aggregator'] },
+        { label: 'Blockchain Layer', color: '#00ff88', items: ['$SWARM Token', 'Staking Contract', 'Governance DAO'] },
+      ],
+    },
+    token: {
+      p1: 'The $SWARM token is the economic backbone of the SubAgent Swarm ecosystem, designed with carefully balanced incentives to align all participants:',
+      flows: [
+        { icon: '\uD83D\uDE80', title: 'Deploy', desc: 'Users spend $SWARM to deploy agent swarms. A portion is burned, creating deflationary pressure.' },
+        { icon: '\uD83C\uDFAF', title: 'Stake', desc: 'Token holders stake $SWARM to earn protocol fees and unlock premium capabilities.' },
+        { icon: '\uD83D\uDDF3\uFE0F', title: 'Govern', desc: 'Stakers vote on protocol parameters, fee structures, and ecosystem fund allocation.' },
+        { icon: '\uD83D\uDD25', title: 'Burn', desc: 'Each deployment permanently burns tokens, steadily reducing total supply over time.' },
+      ],
+      linkText: 'View detailed tokenomics',
+    },
+    roadmap: {
+      phases: [
+        { label: 'Q1 2025', title: 'Foundation', items: ['Protocol architecture design', 'Core smart contract development', 'Testnet deployment', '$SWARM token launch on Base'] },
+        { label: 'Q2 2025', title: 'Alpha Launch', items: ['Main Agent v1 release', 'Dashboard beta', 'Social media swarm module', 'Community airdrop campaign'] },
+        { label: 'Q3 2025', title: 'Expansion', items: ['Dev acceleration swarm module', 'Data collection module', 'Staking & governance launch', 'Strategic partnerships'] },
+        { label: 'Q4 2025', title: 'Scale', items: ['Full API & SDK release', 'Cross-chain expansion', 'Enterprise solutions', 'DAO transition'] },
+      ],
+    },
+    disclaimer: {
+      title: 'Disclaimer',
+      text: 'This whitepaper is for informational purposes only and does not constitute financial advice, an offer to sell, or a solicitation of an offer to buy any tokens. Participation in the SubAgent Swarm ecosystem involves risks. Please conduct your own due diligence.',
+    },
+    ctaTitle: 'Ready to Build the Future?',
+    ctaDesc: 'Explore $SWARM tokenomics or return to the main page to get started.',
+    ctaBtn1: 'View Tokenomics \u2192',
+    ctaBtn2: 'Back to Home',
+  },
+
+  zh: {
+    badge: '\u6280\u672F\u767D\u76AE\u4E66',
+    heroTitle1: 'SubAgent Swarm',
+    heroTitle2: '\u534F\u8BAE',
+    heroDesc: '\u5173\u4E8E\u81EA\u4E3B AI \u4EE3\u7406\u8702\u7FA4\u67B6\u6784\u3001\u4EE3\u5E01\u7ECF\u6D4E\u5B66\u548C\u5F00\u53D1\u8DEF\u7EBF\u56FE\u7684\u5168\u9762\u6280\u672F\u6982\u8FF0\u3002',
+    version: 'v1.0',
+    date: '2025\u5E741\u6708',
+    tocTitle: '\u76EE\u5F55',
+    toc: {
+      abstract: '\u6458\u8981',
+      problem: '\u95EE\u9898\u9648\u8FF0',
+      solution: '\u6211\u4EEC\u7684\u89E3\u51B3\u65B9\u6848',
+      architecture: '\u67B6\u6784',
+      token: '\u4EE3\u5E01\u7ECF\u6D4E\u5B66',
+      roadmap: '\u8DEF\u7EBF\u56FE',
+    },
+    abstract: {
+      p1: 'SubAgent Swarm\u5F15\u5165\u4E86\u4E00\u79CD\u53BB\u4E2D\u5FC3\u5316\u534F\u8BAE\uFF0C\u7528\u4E8E\u7F16\u6392\u81EA\u4E3B AI \u4EE3\u7406\u8702\u7FA4\u3002\u901A\u8FC7\u5229\u7528\u5E76\u884C\u5904\u7406\u548C\u667A\u80FD\u4EFB\u52A1\u5206\u89E3\uFF0C\u8BE5\u534F\u8BAE\u53EF\u4EE5\u901A\u8FC7\u5355\u4E2A\u547D\u4EE4\u751F\u6210\u6570\u5343\u4E2A\u4E13\u4E1A\u5B50\u4EE3\u7406\uFF0C\u540C\u65F6\u6267\u884C\u590D\u6742\u5DE5\u4F5C\u6D41\u3002',
+      p2: '$SWARM\u4EE3\u5E01\u4F5C\u4E3A\u539F\u751F\u5B9E\u7528\u4EE3\u5E01\uFF0C\u9A71\u52A8\u751F\u6001\u7CFB\u7EDF\u5185\u7684\u4EE3\u7406\u90E8\u7F72\u3001\u6CBB\u7406\u548C\u8D28\u62BC\u5956\u52B1\u3002\u57FA\u4E8EBase\uFF08Layer 2\uFF09\u6784\u5EFA\uFF0C\u8BE5\u534F\u8BAE\u5B9E\u73B0\u4E86\u9AD8\u541E\u5410\u91CF\u548C\u4F4E\u6210\u672C\uFF0C\u540C\u65F6\u7EE7\u627F\u4E86\u4EE5\u592A\u574A\u7684\u5B89\u5168\u4FDD\u969C\u3002',
+      highlightTitle: '\u6838\u5FC3\u521B\u65B0',
+      highlightText: '\u901A\u8FC7\u667A\u80FD\u8702\u7FA4\u7F16\u6392\u548C\u5E76\u884C\u5B50\u4EE3\u7406\u6267\u884C\uFF0C\u5C062\u5C0F\u65F6\u7684\u5DE5\u4F5C\u6D41\u8F6C\u5316\u4E3A5\u5206\u949F\u7684\u64CD\u4F5C\u3002',
+    },
+    problem: {
+      p1: '\u5F53\u524D AI \u4EE3\u7406\u9886\u57DF\u9762\u4E34\u7740\u51E0\u4E2A\u57FA\u672C\u9650\u5236\uFF0C\u963B\u788D\u4E86\u5E7F\u6CDB\u91C7\u7528\u548C\u9AD8\u6548\u4EFB\u52A1\u6267\u884C\uFF1A',
+      points: [
+        { icon: '\u23F3', title: '\u987A\u5E8F\u74F6\u9888', desc: '\u4F20\u7EDF AI \u4EE3\u7406\u4E00\u6B21\u5904\u7406\u4E00\u4E2A\u4EFB\u52A1\uFF0C\u5BF9\u590D\u6742\u7684\u591A\u6B65\u9AA4\u5DE5\u4F5C\u6D41\u9020\u6210\u5DE8\u5927\u74F6\u9888\u3002' },
+        { icon: '\uD83D\uDD12', title: '\u5B64\u7ACB\u7684\u80FD\u529B', desc: '\u73B0\u6709\u4EE3\u7406\u4E13\u6CE8\u4E8E\u5355\u4E00\u9886\u57DF\uFF0C\u65E0\u6CD5\u6709\u6548\u5730\u8DE8\u5E73\u53F0\u548C\u4EFB\u52A1\u7C7B\u578B\u8FDB\u884C\u534F\u8C03\u3002' },
+        { icon: '\uD83D\uDCC8', title: '\u6269\u5C55\u9650\u5236', desc: '\u5F53\u524D\u67B6\u6784\u65E0\u6CD5\u6839\u636E\u5DE5\u4F5C\u8D1F\u8F7D\u9700\u6C42\u52A8\u6001\u8C03\u6574\u4EE3\u7406\u6570\u91CF\uFF0C\u5BFC\u81F4\u6548\u7387\u4F4E\u4E0B\u3002' },
+        { icon: '\uD83D\uDCB8', title: '\u9AD8\u6210\u672C', desc: '\u8FD0\u884C\u591A\u4E2A\u72EC\u7ACB\u7684 AI \u670D\u52A1\u6210\u672C\u9AD8\u6602\uFF0C\u4E14\u9700\u8981\u590D\u6742\u7684\u96C6\u6210\u548C\u7BA1\u7406\u5F00\u9500\u3002' },
+      ],
+    },
+    solution: {
+      p1: 'SubAgent Swarm\u901A\u8FC7\u65B0\u9896\u7684\u8702\u7FA4\u667A\u80FD\u67B6\u6784\u89E3\u51B3\u8FD9\u4E9B\u95EE\u9898\uFF0C\u534F\u8C03\u6570\u5343\u4E2A\u4E13\u4E1A\u4EE3\u7406\u5E76\u884C\u5DE5\u4F5C\uFF1A',
+      features: [
+        { title: '\u667A\u80FD\u4EFB\u52A1\u5206\u89E3', desc: '\u4E3B\u4EE3\u7406\u5206\u6790\u590D\u6742\u8BF7\u6C42\uFF0C\u81EA\u52A8\u5C06\u5176\u5206\u89E3\u4E3A\u6700\u4F18\u5B50\u4EFB\u52A1\uFF0C\u6BCF\u4E2A\u5B50\u4EFB\u52A1\u4E3A\u72EC\u7ACB\u5E76\u884C\u6267\u884C\u800C\u8BBE\u8BA1\u3002' },
+        { title: '\u52A8\u6001\u4EE3\u7406\u751F\u6210', desc: '\u6839\u636E\u9700\u6C42\u521B\u5EFA\u5177\u6709\u4E13\u4E1A\u80FD\u529B\u7684\u5B50\u4EE3\u7406\uFF0C\u786E\u4FDD\u6700\u5927\u6548\u7387\u548C\u8D44\u6E90\u5229\u7528\u7387\u3002' },
+        { title: '\u5B9E\u65F6\u534F\u8C03', desc: '\u53BB\u4E2D\u5FC3\u5316\u534F\u8C03\u5C42\u7BA1\u7406\u4EE3\u7406\u95F4\u901A\u4FE1\u3001\u9519\u8BEF\u6062\u590D\u548C\u5B9E\u65F6\u7ED3\u679C\u805A\u5408\u3002' },
+        { title: '\u94FE\u4E0A\u9A8C\u8BC1', desc: '\u4EFB\u52A1\u5B8C\u6210\u548C\u4EE3\u7406\u6027\u80FD\u6307\u6807\u8BB0\u5F55\u5728\u94FE\u4E0A\uFF0C\u5B9E\u73B0\u900F\u660E\u7684\u5956\u52B1\u5206\u914D\u548C\u8D28\u91CF\u4FDD\u8BC1\u3002' },
+      ],
+    },
+    architecture: {
+      p1: 'SubAgent Swarm\u534F\u8BAE\u57FA\u4E8E\u6A21\u5757\u5316\u3001\u5206\u5C42\u67B6\u6784\u6784\u5EFA\uFF0C\u65E8\u5728\u5B9E\u73B0\u6700\u5927\u53EF\u6269\u5C55\u6027\u548C\u53EF\u6269\u5C55\u6027\uFF1A',
+      layers: [
+        { label: '\u5E94\u7528\u5C42', color: '#00e5ff', items: ['\u4EEA\u8868\u76D8 UI', 'API \u7F51\u5173', 'SDK / CLI'] },
+        { label: '\u7F16\u6392\u5C42', color: '#7b2ff7', items: ['\u4E3B\u4EE3\u7406', '\u4EFB\u52A1\u5206\u89E3\u5668', '\u8702\u7FA4\u534F\u8C03\u5668'] },
+        { label: '\u6267\u884C\u5C42', color: '#ff2d95', items: ['\u5B50\u4EE3\u7406\u6C60', '\u5E76\u884C\u8FD0\u884C\u65F6', '\u7ED3\u679C\u805A\u5408\u5668'] },
+        { label: '\u533A\u5757\u94FE\u5C42', color: '#00ff88', items: ['$SWARM \u4EE3\u5E01', '\u8D28\u62BC\u5408\u7EA6', '\u6CBB\u7406 DAO'] },
+      ],
+    },
+    token: {
+      p1: '$SWARM\u4EE3\u5E01\u662FSubAgent Swarm\u751F\u6001\u7CFB\u7EDF\u7684\u7ECF\u6D4E\u652F\u67F1\uFF0C\u7CBE\u5FC3\u8BBE\u8BA1\u7684\u6FC0\u52B1\u673A\u5236\u786E\u4FDD\u6240\u6709\u53C2\u4E0E\u8005\u5229\u76CA\u4E00\u81F4\uFF1A',
+      flows: [
+        { icon: '\uD83D\uDE80', title: '\u90E8\u7F72', desc: '\u7528\u6237\u82B1\u8D39$SWARM\u90E8\u7F72\u4EE3\u7406\u8702\u7FA4\u3002\u90E8\u5206\u4EE3\u5E01\u88AB\u71C3\u70E7\uFF0C\u4EA7\u751F\u901A\u7F29\u538B\u529B\u3002' },
+        { icon: '\uD83C\uDFAF', title: '\u8D28\u62BC', desc: '\u4EE3\u5E01\u6301\u6709\u8005\u8D28\u62BC$SWARM\u4EE5\u8D5A\u53D6\u534F\u8BAE\u8D39\u7528\u5E76\u89E3\u9501\u9AD8\u7EA7\u529F\u80FD\u3002' },
+        { icon: '\uD83D\uDDF3\uFE0F', title: '\u6CBB\u7406', desc: '\u8D28\u62BC\u8005\u5BF9\u534F\u8BAE\u53C2\u6570\u3001\u8D39\u7528\u7ED3\u6784\u548C\u751F\u6001\u57FA\u91D1\u5206\u914D\u8FDB\u884C\u6295\u7968\u3002' },
+        { icon: '\uD83D\uDD25', title: '\u71C3\u70E7', desc: '\u6BCF\u6B21\u90E8\u7F72\u90FD\u4F1A\u6C38\u4E45\u71C3\u70E7\u4EE3\u5E01\uFF0C\u7A33\u6B65\u51CF\u5C11\u603B\u4F9B\u5E94\u3002' },
+      ],
+      linkText: '\u67E5\u770B\u8BE6\u7EC6\u4EE3\u5E01\u7ECF\u6D4E\u5B66',
+    },
+    roadmap: {
+      phases: [
+        { label: 'Q1 2025', title: '\u57FA\u7840', items: ['\u534F\u8BAE\u67B6\u6784\u8BBE\u8BA1', '\u6838\u5FC3\u667A\u80FD\u5408\u7EA6\u5F00\u53D1', '\u6D4B\u8BD5\u7F51\u90E8\u7F72', '$SWARM\u4EE3\u5E01\u5728Base\u4E0A\u53D1\u5E03'] },
+        { label: 'Q2 2025', title: 'Alpha\u53D1\u5E03', items: ['\u4E3B\u4EE3\u7406v1\u53D1\u5E03', '\u4EEA\u8868\u76D8Beta\u7248', '\u793E\u4EA4\u5A92\u4F53\u8702\u7FA4\u6A21\u5757', '\u793E\u533A\u7A7A\u6295\u6D3B\u52A8'] },
+        { label: 'Q3 2025', title: '\u6269\u5C55', items: ['\u5F00\u53D1\u52A0\u901F\u8702\u7FA4\u6A21\u5757', '\u6570\u636E\u6536\u96C6\u6A21\u5757', '\u8D28\u62BC\u4E0E\u6CBB\u7406\u542F\u52A8', '\u6218\u7565\u5408\u4F5C\u4F19\u4F34\u5173\u7CFB'] },
+        { label: 'Q4 2025', title: '\u89C4\u6A21\u5316', items: ['\u5B8C\u6574API\u4E0ESDK\u53D1\u5E03', '\u8DE8\u94FE\u6269\u5C55', '\u4F01\u4E1A\u89E3\u51B3\u65B9\u6848', 'DAO\u8FC7\u6E21'] },
+      ],
+    },
+    disclaimer: {
+      title: '\u514D\u8D23\u58F0\u660E',
+      text: '\u672C\u767D\u76AE\u4E66\u4EC5\u4F9B\u53C2\u8003\uFF0C\u4E0D\u6784\u6210\u8D22\u52A1\u5EFA\u8BAE\u3001\u51FA\u552E\u8981\u7EA6\u6216\u8D2D\u4E70\u4EFB\u4F55\u4EE3\u5E01\u7684\u8981\u7EA6\u9080\u8BF7\u3002\u53C2\u4E0ESubAgent Swarm\u751F\u6001\u7CFB\u7EDF\u6D89\u53CA\u98CE\u9669\u3002\u8BF7\u81EA\u884C\u8FDB\u884C\u5C3D\u804C\u8C03\u67E5\u3002',
+    },
+    ctaTitle: '\u51C6\u5907\u597D\u6784\u5EFA\u672A\u6765\u4E86\u5417\uFF1F',
+    ctaDesc: '\u63A2\u7D22$SWARM\u4EE3\u5E01\u7ECF\u6D4E\u5B66\u6216\u8FD4\u56DE\u4E3B\u9875\u5F00\u59CB\u4F7F\u7528\u3002',
+    ctaBtn1: '\u67E5\u770B\u4EE3\u5E01\u7ECF\u6D4E\u5B66 \u2192',
+    ctaBtn2: '\u8FD4\u56DE\u9996\u9875',
+  },
+
+  es: {
+    badge: 'WHITEPAPER T\u00C9CNICO',
+    heroTitle1: 'SubAgent Swarm',
+    heroTitle2: 'Protocolo',
+    heroDesc: 'Una visi\u00F3n t\u00E9cnica completa de la arquitectura de enjambre de agentes IA aut\u00F3nomos, econom\u00EDa del token y hoja de ruta.',
+    version: 'v1.0',
+    date: 'Enero 2025',
+    tocTitle: 'Contenidos',
+    toc: {
+      abstract: 'Resumen',
+      problem: 'Problema',
+      solution: 'Soluci\u00F3n',
+      architecture: 'Arquitectura',
+      token: 'Econom\u00EDa del Token',
+      roadmap: 'Hoja de Ruta',
+    },
+    abstract: {
+      p1: 'SubAgent Swarm introduce un protocolo descentralizado para orquestar enjambres de agentes IA aut\u00F3nomos. Aprovechando el procesamiento paralelo y la descomposici\u00F3n inteligente de tareas, el protocolo permite que un solo comando genere miles de sub-agentes especializados que ejecutan flujos de trabajo complejos simult\u00E1neamente.',
+      p2: 'El token $SWARM sirve como token de utilidad nativo que impulsa los despliegues de agentes, la gobernanza y las recompensas de staking dentro del ecosistema. Construido sobre Base (Layer 2), el protocolo logra alto rendimiento y bajos costos heredando las garant\u00EDas de seguridad de Ethereum.',
+      highlightTitle: 'Innovaci\u00F3n Central',
+      highlightText: 'Transforma flujos de trabajo de 2 horas en operaciones de 5 minutos mediante orquestaci\u00F3n inteligente de enjambre y ejecuci\u00F3n paralela de sub-agentes.',
+    },
+    problem: {
+      p1: 'El panorama actual de los agentes IA enfrenta varias limitaciones fundamentales que impiden la adopci\u00F3n generalizada y la ejecuci\u00F3n eficiente de tareas:',
+      points: [
+        { icon: '\u23F3', title: 'Cuello de Botella Secuencial', desc: 'Los agentes IA tradicionales procesan tareas una a la vez, creando cuellos de botella masivos para flujos complejos.' },
+        { icon: '\uD83D\uDD12', title: 'Capacidades Aisladas', desc: 'Los agentes existentes est\u00E1n especializados en dominios \u00FAnicos, incapaces de coordinar efectivamente entre plataformas.' },
+        { icon: '\uD83D\uDCC8', title: 'Limitaciones de Escalado', desc: 'Las arquitecturas actuales no pueden escalar din\u00E1micamente el n\u00FAmero de agentes seg\u00FAn la demanda.' },
+        { icon: '\uD83D\uDCB8', title: 'Altos Costos', desc: 'Ejecutar m\u00FAltiples servicios IA independientes es costoso y requiere integraci\u00F3n compleja.' },
+      ],
+    },
+    solution: {
+      p1: 'SubAgent Swarm resuelve estos problemas mediante una arquitectura novedosa de inteligencia de enjambre que coordina miles de agentes especializados en paralelo:',
+      features: [
+        { title: 'Descomposici\u00F3n Inteligente', desc: 'El Agente Principal analiza solicitudes complejas y las divide autom\u00E1ticamente en sub-tareas \u00F3ptimas para ejecuci\u00F3n paralela.' },
+        { title: 'Generaci\u00F3n Din\u00E1mica', desc: 'Los sub-agentes se crean bajo demanda con capacidades especializadas para cada sub-tarea.' },
+        { title: 'Coordinaci\u00F3n en Tiempo Real', desc: 'Una capa descentralizada gestiona la comunicaci\u00F3n, recuperaci\u00F3n de errores y agregaci\u00F3n de resultados.' },
+        { title: 'Verificaci\u00F3n On-Chain', desc: 'Las m\u00E9tricas de rendimiento se registran on-chain para distribuci\u00F3n transparente de recompensas.' },
+      ],
+    },
+    architecture: {
+      p1: 'El protocolo SubAgent Swarm est\u00E1 construido sobre una arquitectura modular y en capas dise\u00F1ada para m\u00E1xima escalabilidad:',
+      layers: [
+        { label: 'Capa de Aplicaci\u00F3n', color: '#00e5ff', items: ['Dashboard UI', 'API Gateway', 'SDK / CLI'] },
+        { label: 'Capa de Orquestaci\u00F3n', color: '#7b2ff7', items: ['Agente Principal', 'Descomponedor', 'Coordinador'] },
+        { label: 'Capa de Ejecuci\u00F3n', color: '#ff2d95', items: ['Pool de Agentes', 'Runtime Paralelo', 'Agregador'] },
+        { label: 'Capa Blockchain', color: '#00ff88', items: ['Token $SWARM', 'Contrato de Staking', 'DAO de Gobernanza'] },
+      ],
+    },
+    token: {
+      p1: 'El token $SWARM es la columna vertebral econ\u00F3mica del ecosistema, dise\u00F1ado con incentivos cuidadosamente equilibrados:',
+      flows: [
+        { icon: '\uD83D\uDE80', title: 'Desplegar', desc: 'Los usuarios gastan $SWARM para desplegar enjambres. Una porci\u00F3n se quema, creando presi\u00F3n deflacionaria.' },
+        { icon: '\uD83C\uDFAF', title: 'Stakear', desc: 'Los holders stakean $SWARM para ganar comisiones del protocolo y desbloquear funciones premium.' },
+        { icon: '\uD83D\uDDF3\uFE0F', title: 'Gobernar', desc: 'Los stakers votan sobre par\u00E1metros del protocolo y asignaci\u00F3n de fondos.' },
+        { icon: '\uD83D\uDD25', title: 'Quemar', desc: 'Cada despliegue quema tokens permanentemente, reduciendo el suministro total.' },
+      ],
+      linkText: 'Ver tokenomics detallados',
+    },
+    roadmap: {
+      phases: [
+        { label: 'Q1 2025', title: 'Fundaci\u00F3n', items: ['Dise\u00F1o de arquitectura', 'Desarrollo de contratos inteligentes', 'Despliegue en testnet', 'Lanzamiento de $SWARM en Base'] },
+        { label: 'Q2 2025', title: 'Lanzamiento Alpha', items: ['Agente Principal v1', 'Dashboard beta', 'M\u00F3dulo de enjambre social', 'Campa\u00F1a de airdrop'] },
+        { label: 'Q3 2025', title: 'Expansi\u00F3n', items: ['M\u00F3dulo de aceleraci\u00F3n dev', 'M\u00F3dulo de recolecci\u00F3n de datos', 'Lanzamiento de staking y gobernanza', 'Alianzas estrat\u00E9gicas'] },
+        { label: 'Q4 2025', title: 'Escala', items: ['API y SDK completo', 'Expansi\u00F3n cross-chain', 'Soluciones empresariales', 'Transici\u00F3n a DAO'] },
+      ],
+    },
+    disclaimer: {
+      title: 'Descargo de Responsabilidad',
+      text: 'Este whitepaper es solo informativo y no constituye asesoramiento financiero ni una oferta de venta de tokens. La participaci\u00F3n en el ecosistema implica riesgos. Realice su propia investigaci\u00F3n.',
+    },
+    ctaTitle: '\u00BFListo para construir el futuro?',
+    ctaDesc: 'Explora los tokenomics de $SWARM o regresa a la p\u00E1gina principal.',
+    ctaBtn1: 'Ver Tokenomics \u2192',
+    ctaBtn2: 'Volver al Inicio',
+  },
+
+  ja: {
+    badge: '\u6280\u8853\u30DB\u30EF\u30A4\u30C8\u30DA\u30FC\u30D1\u30FC',
+    heroTitle1: 'SubAgent Swarm',
+    heroTitle2: '\u30D7\u30ED\u30C8\u30B3\u30EB',
+    heroDesc: '\u81EA\u5F8B\u578BAI\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30B9\u30A6\u30A9\u30FC\u30E0\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u3001\u30C8\u30FC\u30AF\u30F3\u30A8\u30B3\u30CE\u30DF\u30AF\u30B9\u3001\u958B\u767A\u30ED\u30FC\u30C9\u30DE\u30C3\u30D7\u306E\u5305\u62EC\u7684\u306A\u6280\u8853\u6982\u8981\u3002',
+    version: 'v1.0',
+    date: '2025\u5E741\u6708',
+    tocTitle: '\u76EE\u6B21',
+    toc: {
+      abstract: '\u6982\u8981',
+      problem: '\u554F\u984C\u63D0\u8D77',
+      solution: '\u30BD\u30EA\u30E5\u30FC\u30B7\u30E7\u30F3',
+      architecture: '\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3',
+      token: '\u30C8\u30FC\u30AF\u30F3\u30A8\u30B3\u30CE\u30DF\u30AF\u30B9',
+      roadmap: '\u30ED\u30FC\u30C9\u30DE\u30C3\u30D7',
+    },
+    abstract: {
+      p1: 'SubAgent Swarm\u306F\u3001\u81EA\u5F8B\u578BAI\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30B9\u30A6\u30A9\u30FC\u30E0\u3092\u30AA\u30FC\u30B1\u30B9\u30C8\u30EC\u30FC\u30B7\u30E7\u30F3\u3059\u308B\u5206\u6563\u578B\u30D7\u30ED\u30C8\u30B3\u30EB\u3067\u3059\u3002\u4E26\u5217\u51E6\u7406\u3068\u30A4\u30F3\u30C6\u30EA\u30B8\u30A7\u30F3\u30C8\u306A\u30BF\u30B9\u30AF\u5206\u89E3\u3092\u6D3B\u7528\u3057\u3001\u5358\u4E00\u30B3\u30DE\u30F3\u30C9\u3067\u6570\u5343\u306E\u5C02\u9580\u30B5\u30D6\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u3092\u751F\u6210\u3057\u3001\u8907\u96D1\u306A\u30EF\u30FC\u30AF\u30D5\u30ED\u30FC\u3092\u540C\u6642\u306B\u5B9F\u884C\u3057\u307E\u3059\u3002',
+      p2: '$SWARM\u30C8\u30FC\u30AF\u30F3\u306F\u3001\u30A8\u30B3\u30B7\u30B9\u30C6\u30E0\u5185\u306E\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30C7\u30D7\u30ED\u30A4\u3001\u30AC\u30D0\u30CA\u30F3\u30B9\u3001\u30B9\u30C6\u30FC\u30AD\u30F3\u30B0\u5831\u916C\u3092\u99C6\u52D5\u3059\u308B\u30CD\u30A4\u30C6\u30A3\u30D6\u30E6\u30FC\u30C6\u30A3\u30EA\u30C6\u30A3\u30C8\u30FC\u30AF\u30F3\u3067\u3059\u3002Base\uFF08Layer 2\uFF09\u4E0A\u306B\u69CB\u7BC9\u3055\u308C\u3001Ethereum\u306E\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u3092\u7D99\u627F\u3057\u306A\u304C\u3089\u9AD8\u30B9\u30EB\u30FC\u30D7\u30C3\u30C8\u3068\u4F4E\u30B3\u30B9\u30C8\u3092\u5B9F\u73FE\u3057\u307E\u3059\u3002',
+      highlightTitle: '\u30B3\u30A2\u30A4\u30CE\u30D9\u30FC\u30B7\u30E7\u30F3',
+      highlightText: '\u30A4\u30F3\u30C6\u30EA\u30B8\u30A7\u30F3\u30C8\u306A\u30B9\u30A6\u30A9\u30FC\u30E0\u30AA\u30FC\u30B1\u30B9\u30C8\u30EC\u30FC\u30B7\u30E7\u30F3\u3068\u4E26\u5217\u30B5\u30D6\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u5B9F\u884C\u306B\u3088\u308A\u30012\u6642\u9593\u306E\u30EF\u30FC\u30AF\u30D5\u30ED\u30FC\u30925\u5206\u306E\u64CD\u4F5C\u306B\u5909\u63DB\u3002',
+    },
+    problem: {
+      p1: '\u73FE\u5728\u306EAI\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u306E\u72B6\u6CC1\u306B\u306F\u3001\u5E83\u7BC4\u306A\u63A1\u7528\u3068\u52B9\u7387\u7684\u306A\u30BF\u30B9\u30AF\u5B9F\u884C\u3092\u59A8\u3052\u308B\u3044\u304F\u3064\u304B\u306E\u57FA\u672C\u7684\u306A\u5236\u9650\u304C\u3042\u308A\u307E\u3059\uFF1A',
+      points: [
+        { icon: '\u23F3', title: '\u30B7\u30FC\u30B1\u30F3\u30B7\u30E3\u30EB\u30DC\u30C8\u30EB\u30CD\u30C3\u30AF', desc: '\u5F93\u6765\u306EAI\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u306F\u30BF\u30B9\u30AF\u3092\u4E00\u3064\u305A\u3064\u51E6\u7406\u3059\u308B\u305F\u3081\u3001\u8907\u96D1\u306A\u30EF\u30FC\u30AF\u30D5\u30ED\u30FC\u3067\u5927\u304D\u306A\u30DC\u30C8\u30EB\u30CD\u30C3\u30AF\u304C\u767A\u751F\u3057\u307E\u3059\u3002' },
+        { icon: '\uD83D\uDD12', title: '\u30B5\u30A4\u30ED\u5316\u3055\u308C\u305F\u80FD\u529B', desc: '\u65E2\u5B58\u306E\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u306F\u5358\u4E00\u30C9\u30E1\u30A4\u30F3\u306B\u7279\u5316\u3057\u3066\u304A\u308A\u3001\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0\u9593\u306E\u52B9\u679C\u7684\u306A\u9023\u643A\u304C\u3067\u304D\u307E\u305B\u3093\u3002' },
+        { icon: '\uD83D\uDCC8', title: '\u30B9\u30B1\u30FC\u30EA\u30F3\u30B0\u306E\u5236\u9650', desc: '\u73FE\u5728\u306E\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u3067\u306F\u3001\u30EF\u30FC\u30AF\u30ED\u30FC\u30C9\u306B\u5FDC\u3058\u305F\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u6570\u306E\u52D5\u7684\u30B9\u30B1\u30FC\u30EA\u30F3\u30B0\u304C\u3067\u304D\u307E\u305B\u3093\u3002' },
+        { icon: '\uD83D\uDCB8', title: '\u9AD8\u30B3\u30B9\u30C8', desc: '\u8907\u6570\u306E\u72EC\u7ACB\u3057\u305FAI\u30B5\u30FC\u30D3\u30B9\u306E\u904B\u7528\u306F\u9AD8\u4FA1\u3067\u3001\u8907\u96D1\u306A\u7D71\u5408\u3068\u7BA1\u7406\u30AA\u30FC\u30D0\u30FC\u30D8\u30C3\u30C9\u304C\u5FC5\u8981\u3067\u3059\u3002' },
+      ],
+    },
+    solution: {
+      p1: 'SubAgent Swarm\u306F\u3001\u6570\u5343\u306E\u5C02\u9580\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u3092\u4E26\u5217\u3067\u5354\u8ABF\u3059\u308B\u65B0\u3057\u3044\u30B9\u30A6\u30A9\u30FC\u30E0\u30A4\u30F3\u30C6\u30EA\u30B8\u30A7\u30F3\u30B9\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u3067\u3053\u308C\u3089\u306E\u554F\u984C\u3092\u89E3\u6C7A\u3057\u307E\u3059\uFF1A',
+      features: [
+        { title: '\u30A4\u30F3\u30C6\u30EA\u30B8\u30A7\u30F3\u30C8\u30BF\u30B9\u30AF\u5206\u89E3', desc: '\u30E1\u30A4\u30F3\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u304C\u8907\u96D1\u306A\u30EA\u30AF\u30A8\u30B9\u30C8\u3092\u5206\u6790\u3057\u3001\u72EC\u7ACB\u4E26\u5217\u5B9F\u884C\u306B\u6700\u9069\u306A\u30B5\u30D6\u30BF\u30B9\u30AF\u306B\u81EA\u52D5\u5206\u89E3\u3057\u307E\u3059\u3002' },
+        { title: '\u30C0\u30A4\u30CA\u30DF\u30C3\u30AF\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u751F\u6210', desc: '\u5404\u30B5\u30D6\u30BF\u30B9\u30AF\u306B\u7279\u5316\u3057\u305F\u80FD\u529B\u3092\u6301\u3064\u30B5\u30D6\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u3092\u30AA\u30F3\u30C7\u30DE\u30F3\u30C9\u3067\u4F5C\u6210\u3057\u307E\u3059\u3002' },
+        { title: '\u30EA\u30A2\u30EB\u30BF\u30A4\u30E0\u30B3\u30FC\u30C7\u30A3\u30CD\u30FC\u30B7\u30E7\u30F3', desc: '\u5206\u6563\u578B\u30B3\u30FC\u30C7\u30A3\u30CD\u30FC\u30B7\u30E7\u30F3\u30EC\u30A4\u30E4\u30FC\u304C\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u9593\u901A\u4FE1\u3001\u30A8\u30E9\u30FC\u56DE\u5FA9\u3001\u7D50\u679C\u96C6\u7D04\u3092\u30EA\u30A2\u30EB\u30BF\u30A4\u30E0\u3067\u7BA1\u7406\u3002' },
+        { title: '\u30AA\u30F3\u30C1\u30A7\u30FC\u30F3\u691C\u8A3C', desc: '\u30BF\u30B9\u30AF\u5B8C\u4E86\u3068\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30D1\u30D5\u30A9\u30FC\u30DE\u30F3\u30B9\u6307\u6A19\u3092\u30AA\u30F3\u30C1\u30A7\u30FC\u30F3\u306B\u8A18\u9332\u3057\u3001\u900F\u660E\u306A\u5831\u916C\u5206\u914D\u3092\u5B9F\u73FE\u3002' },
+      ],
+    },
+    architecture: {
+      p1: 'SubAgent Swarm\u30D7\u30ED\u30C8\u30B3\u30EB\u306F\u3001\u6700\u5927\u306E\u30B9\u30B1\u30FC\u30E9\u30D3\u30EA\u30C6\u30A3\u3068\u62E1\u5F35\u6027\u3092\u76EE\u6307\u3057\u305F\u30E2\u30B8\u30E5\u30E9\u30FC\u306A\u30EC\u30A4\u30E4\u30FC\u30C9\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u3067\u69CB\u7BC9\u3055\u308C\u3066\u3044\u307E\u3059\uFF1A',
+      layers: [
+        { label: '\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u5C64', color: '#00e5ff', items: ['\u30C0\u30C3\u30B7\u30E5\u30DC\u30FC\u30C9 UI', 'API \u30B2\u30FC\u30C8\u30A6\u30A7\u30A4', 'SDK / CLI'] },
+        { label: '\u30AA\u30FC\u30B1\u30B9\u30C8\u30EC\u30FC\u30B7\u30E7\u30F3\u5C64', color: '#7b2ff7', items: ['\u30E1\u30A4\u30F3\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8', '\u30BF\u30B9\u30AF\u30C7\u30B3\u30F3\u30DD\u30FC\u30B6\u30FC', '\u30B9\u30A6\u30A9\u30FC\u30E0\u30B3\u30FC\u30C7\u30A3\u30CD\u30FC\u30BF\u30FC'] },
+        { label: '\u5B9F\u884C\u5C64', color: '#ff2d95', items: ['\u30B5\u30D6\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30D7\u30FC\u30EB', '\u30D1\u30E9\u30EC\u30EB\u30E9\u30F3\u30BF\u30A4\u30E0', '\u30EA\u30B6\u30EB\u30C8\u30A2\u30B0\u30EA\u30B2\u30FC\u30BF\u30FC'] },
+        { label: '\u30D6\u30ED\u30C3\u30AF\u30C1\u30A7\u30FC\u30F3\u5C64', color: '#00ff88', items: ['$SWARM \u30C8\u30FC\u30AF\u30F3', '\u30B9\u30C6\u30FC\u30AD\u30F3\u30B0\u30B3\u30F3\u30C8\u30E9\u30AF\u30C8', '\u30AC\u30D0\u30CA\u30F3\u30B9 DAO'] },
+      ],
+    },
+    token: {
+      p1: '$SWARM\u30C8\u30FC\u30AF\u30F3\u306FSubAgent Swarm\u30A8\u30B3\u30B7\u30B9\u30C6\u30E0\u306E\u7D4C\u6E08\u7684\u57FA\u76E4\u3067\u3042\u308A\u3001\u3059\u3079\u3066\u306E\u53C2\u52A0\u8005\u306E\u5229\u76CA\u3092\u8ABF\u6574\u3059\u308B\u3088\u3046\u614E\u91CD\u306B\u8A2D\u8A08\u3055\u308C\u3066\u3044\u307E\u3059\uFF1A',
+      flows: [
+        { icon: '\uD83D\uDE80', title: '\u30C7\u30D7\u30ED\u30A4', desc: '\u30E6\u30FC\u30B6\u30FC\u306F$SWARM\u3092\u4F7F\u7528\u3057\u3066\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\u30B9\u30A6\u30A9\u30FC\u30E0\u3092\u30C7\u30D7\u30ED\u30A4\u3002\u4E00\u90E8\u306F\u30D0\u30FC\u30F3\u3055\u308C\u30C7\u30D5\u30EC\u5727\u529B\u3092\u751F\u307F\u51FA\u3057\u307E\u3059\u3002' },
+        { icon: '\uD83C\uDFAF', title: '\u30B9\u30C6\u30FC\u30AF', desc: '\u30C8\u30FC\u30AF\u30F3\u30DB\u30EB\u30C0\u30FC\u306F$SWARM\u3092\u30B9\u30C6\u30FC\u30AF\u3057\u3066\u30D7\u30ED\u30C8\u30B3\u30EB\u624B\u6570\u6599\u3092\u7372\u5F97\u3057\u30D7\u30EC\u30DF\u30A2\u30E0\u6A5F\u80FD\u3092\u89E3\u9664\u3002' },
+        { icon: '\uD83D\uDDF3\uFE0F', title: '\u30AC\u30D0\u30CA\u30F3\u30B9', desc: '\u30B9\u30C6\u30FC\u30AB\u30FC\u306F\u30D7\u30ED\u30C8\u30B3\u30EB\u30D1\u30E9\u30E1\u30FC\u30BF\u3001\u624B\u6570\u6599\u69CB\u9020\u3001\u30A8\u30B3\u30B7\u30B9\u30C6\u30E0\u30D5\u30A1\u30F3\u30C9\u306B\u6295\u7968\u3002' },
+        { icon: '\uD83D\uDD25', title: '\u30D0\u30FC\u30F3', desc: '\u5404\u30C7\u30D7\u30ED\u30A4\u3067\u30C8\u30FC\u30AF\u30F3\u304C\u6C38\u4E45\u306B\u30D0\u30FC\u30F3\u3055\u308C\u3001\u7DCF\u4F9B\u7D66\u304C\u7740\u5B9F\u306B\u6E1B\u5C11\u3057\u307E\u3059\u3002' },
+      ],
+      linkText: '\u8A73\u7D30\u306A\u30C8\u30FC\u30AF\u30F3\u30A8\u30B3\u30CE\u30DF\u30AF\u30B9\u3092\u898B\u308B',
+    },
+    roadmap: {
+      phases: [
+        { label: 'Q1 2025', title: '\u57FA\u76E4', items: ['\u30D7\u30ED\u30C8\u30B3\u30EB\u30A2\u30FC\u30AD\u30C6\u30AF\u30C1\u30E3\u8A2D\u8A08', '\u30B3\u30A2\u30B9\u30DE\u30FC\u30C8\u30B3\u30F3\u30C8\u30E9\u30AF\u30C8\u958B\u767A', '\u30C6\u30B9\u30C8\u30CD\u30C3\u30C8\u30C7\u30D7\u30ED\u30A4', '$SWARM\u30C8\u30FC\u30AF\u30F3\u3092Base\u3067\u30ED\u30FC\u30F3\u30C1'] },
+        { label: 'Q2 2025', title: '\u30A2\u30EB\u30D5\u30A1\u30ED\u30FC\u30F3\u30C1', items: ['\u30E1\u30A4\u30F3\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8v1\u30EA\u30EA\u30FC\u30B9', '\u30C0\u30C3\u30B7\u30E5\u30DC\u30FC\u30C9\u30D9\u30FC\u30BF', '\u30BD\u30FC\u30B7\u30E3\u30EB\u30E1\u30C7\u30A3\u30A2\u30B9\u30A6\u30A9\u30FC\u30E0\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30B3\u30DF\u30E5\u30CB\u30C6\u30A3\u30A8\u30A2\u30C9\u30ED\u30C3\u30D7\u30AD\u30E3\u30F3\u30DA\u30FC\u30F3'] },
+        { label: 'Q3 2025', title: '\u62E1\u5F35', items: ['\u958B\u767A\u52A0\u901F\u30B9\u30A6\u30A9\u30FC\u30E0\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30C7\u30FC\u30BF\u53CE\u96C6\u30E2\u30B8\u30E5\u30FC\u30EB', '\u30B9\u30C6\u30FC\u30AD\u30F3\u30B0\u30FB\u30AC\u30D0\u30CA\u30F3\u30B9\u958B\u59CB', '\u6226\u7565\u7684\u30D1\u30FC\u30C8\u30CA\u30FC\u30B7\u30C3\u30D7'] },
+        { label: 'Q4 2025', title: '\u30B9\u30B1\u30FC\u30EB', items: ['\u5B8C\u5168\u306AAPI\u30FBSDK\u30EA\u30EA\u30FC\u30B9', '\u30AF\u30ED\u30B9\u30C1\u30A7\u30FC\u30F3\u62E1\u5F35', '\u30A8\u30F3\u30BF\u30FC\u30D7\u30E9\u30A4\u30BA\u30BD\u30EA\u30E5\u30FC\u30B7\u30E7\u30F3', 'DAO\u79FB\u884C'] },
+      ],
+    },
+    disclaimer: {
+      title: '\u514D\u8CAC\u4E8B\u9805',
+      text: '\u672C\u30DB\u30EF\u30A4\u30C8\u30DA\u30FC\u30D1\u30FC\u306F\u60C5\u5831\u63D0\u4F9B\u306E\u307F\u3092\u76EE\u7684\u3068\u3057\u3066\u304A\u308A\u3001\u8CA1\u52D9\u30A2\u30C9\u30D0\u30A4\u30B9\u3084\u30C8\u30FC\u30AF\u30F3\u8CA9\u58F2\u306E\u52E7\u8A98\u3092\u69CB\u6210\u3059\u308B\u3082\u306E\u3067\u306F\u3042\u308A\u307E\u305B\u3093\u3002\u30A8\u30B3\u30B7\u30B9\u30C6\u30E0\u3078\u306E\u53C2\u52A0\u306B\u306F\u30EA\u30B9\u30AF\u304C\u4F34\u3044\u307E\u3059\u3002\u3054\u81EA\u8EAB\u3067\u5341\u5206\u306A\u8ABF\u67FB\u3092\u884C\u3063\u3066\u304F\u3060\u3055\u3044\u3002',
+    },
+    ctaTitle: '\u672A\u6765\u3092\u69CB\u7BC9\u3059\u308B\u6E96\u5099\u306F\u3067\u304D\u307E\u3057\u305F\u304B\uFF1F',
+    ctaDesc: '$SWARM\u30C8\u30FC\u30AF\u30F3\u30A8\u30B3\u30CE\u30DF\u30AF\u30B9\u3092\u63A2\u7D22\u3059\u308B\u304B\u3001\u30E1\u30A4\u30F3\u30DA\u30FC\u30B8\u306B\u623B\u3063\u3066\u59CB\u3081\u307E\u3057\u3087\u3046\u3002',
+    ctaBtn1: '\u30C8\u30FC\u30AF\u30F3\u30A8\u30B3\u30CE\u30DF\u30AF\u30B9\u3092\u898B\u308B \u2192',
+    ctaBtn2: '\u30DB\u30FC\u30E0\u306B\u623B\u308B',
+  },
+
+  ko: {
+    badge: '\uAE30\uC220 \uBC31\uC11C',
+    heroTitle1: 'SubAgent Swarm',
+    heroTitle2: '\uD504\uB85C\uD1A0\uCF5C',
+    heroDesc: '\uC790\uC728 AI \uC5D0\uC774\uC804\uD2B8 \uC2A4\uC6DC \uC544\uD0A4\uD14D\uCC98, \uD1A0\uD070 \uC774\uCF54\uB178\uBBF9\uC2A4, \uAC1C\uBC1C \uB85C\uB4DC\uB9F5\uC5D0 \uB300\uD55C \uD3EC\uAD04\uC801\uC778 \uAE30\uC220 \uAC1C\uC694\uC785\uB2C8\uB2E4.',
+    version: 'v1.0',
+    date: '2025\uB144 1\uC6D4',
+    tocTitle: '\uBAA9\uCC28',
+    toc: {
+      abstract: '\uAC1C\uC694',
+      problem: '\uBB38\uC81C \uC815\uC758',
+      solution: '\uC194\uB8E8\uC158',
+      architecture: '\uC544\uD0A4\uD14D\uCC98',
+      token: '\uD1A0\uD070 \uC774\uCF54\uB178\uBBF9\uC2A4',
+      roadmap: '\uB85C\uB4DC\uB9F5',
+    },
+    abstract: {
+      p1: 'SubAgent Swarm\uC740 \uC790\uC728 AI \uC5D0\uC774\uC804\uD2B8 \uC2A4\uC6DC\uC744 \uC624\uCF00\uC2A4\uD2B8\uB808\uC774\uC158\uD558\uB294 \uD0C8\uC911\uC559\uD654 \uD504\uB85C\uD1A0\uCF5C\uC785\uB2C8\uB2E4. \uBCD1\uB82C \uCC98\uB9AC\uC640 \uC9C0\uB2A5\uD615 \uD0DC\uC2A4\uD06C \uBD84\uD574\uB97C \uD65C\uC6A9\uD558\uC5EC \uB2E8\uC77C \uBA85\uB839\uC73C\uB85C \uC218\uCC9C \uAC1C\uC758 \uC804\uBB38 \uC11C\uBE0C \uC5D0\uC774\uC804\uD2B8\uB97C \uC0DD\uC131\uD558\uACE0 \uBCF5\uC7A1\uD55C \uC6CC\uD06C\uD50C\uB85C\uB97C \uB3D9\uC2DC\uC5D0 \uC2E4\uD589\uD569\uB2C8\uB2E4.',
+      p2: '$SWARM \uD1A0\uD070\uC740 \uC0DD\uD0DC\uACC4 \uB0B4 \uC5D0\uC774\uC804\uD2B8 \uBC30\uD3EC, \uAC70\uBC84\uB10C\uC2A4, \uC2A4\uD14C\uC774\uD0B9 \uBCF4\uC0C1\uC744 \uAD6C\uB3D9\uD558\uB294 \uB124\uC774\uD2F0\uBE0C \uC720\uD2F8\uB9AC\uD2F0 \uD1A0\uD070\uC785\uB2C8\uB2E4. Base(Layer 2) \uC704\uC5D0 \uAD6C\uCD95\uB418\uC5B4 Ethereum\uC758 \uBCF4\uC548\uC744 \uACC4\uC2B9\uD558\uBA74\uC11C \uB192\uC740 \uCC98\uB9AC\uB7C9\uACFC \uB0AE\uC740 \uBE44\uC6A9\uC744 \uC2E4\uD604\uD569\uB2C8\uB2E4.',
+      highlightTitle: '\uD575\uC2EC \uD601\uC2E0',
+      highlightText: '\uC9C0\uB2A5\uD615 \uC2A4\uC6DC \uC624\uCF00\uC2A4\uD2B8\uB808\uC774\uC158\uACFC \uBCD1\uB82C \uC11C\uBE0C \uC5D0\uC774\uC804\uD2B8 \uC2E4\uD589\uC744 \uD1B5\uD574 2\uC2DC\uAC04 \uC6CC\uD06C\uD50C\uB85C\uB97C 5\uBD84 \uC791\uC5C5\uC73C\uB85C \uC804\uD658\uD569\uB2C8\uB2E4.',
+    },
+    problem: {
+      p1: '\uD604\uC7AC AI \uC5D0\uC774\uC804\uD2B8 \uD658\uACBD\uC5D0\uB294 \uAD11\uBC94\uC704\uD55C \uCC44\uD0DD\uACFC \uD6A8\uC728\uC801\uC778 \uD0DC\uC2A4\uD06C \uC2E4\uD589\uC744 \uBC29\uD574\uD558\uB294 \uBA87 \uAC00\uC9C0 \uADFC\uBCF8\uC801\uC778 \uD55C\uACC4\uAC00 \uC788\uC2B5\uB2C8\uB2E4:',
+      points: [
+        { icon: '\u23F3', title: '\uC21C\uCC28\uC801 \uBCD1\uBAA9', desc: '\uAE30\uC874 AI \uC5D0\uC774\uC804\uD2B8\uB294 \uD0DC\uC2A4\uD06C\uB97C \uD558\uB098\uC529 \uCC98\uB9AC\uD558\uC5EC \uBCF5\uC7A1\uD55C \uBA40\uD2F0\uC2A4\uD15D \uC6CC\uD06C\uD50C\uB85C\uC5D0\uC11C \uC2EC\uAC01\uD55C \uBCD1\uBAA9\uC744 \uC720\uBC1C\uD569\uB2C8\uB2E4.' },
+        { icon: '\uD83D\uDD12', title: '\uACE0\uB9BD\uB41C \uAE30\uB2A5', desc: '\uAE30\uC874 \uC5D0\uC774\uC804\uD2B8\uB294 \uB2E8\uC77C \uB3C4\uBA54\uC778\uC5D0 \uD2B9\uD654\uB418\uC5B4 \uD50C\uB7AB\uD3FC \uAC04 \uD6A8\uACFC\uC801\uC778 \uD611\uC5C5\uC774 \uBD88\uAC00\uB2A5\uD569\uB2C8\uB2E4.' },
+        { icon: '\uD83D\uDCC8', title: '\uD655\uC7A5\uC131 \uD55C\uACC4', desc: '\uD604\uC7AC \uC544\uD0A4\uD14D\uCC98\uB294 \uC6CC\uD06C\uB85C\uB4DC \uC218\uC694\uC5D0 \uB530\uB978 \uC5D0\uC774\uC804\uD2B8 \uC218\uC758 \uB3D9\uC801 \uC2A4\uCF00\uC77C\uB9C1\uC774 \uBD88\uAC00\uB2A5\uD569\uB2C8\uB2E4.' },
+        { icon: '\uD83D\uDCB8', title: '\uB192\uC740 \uBE44\uC6A9', desc: '\uC5EC\uB7EC \uB3C5\uB9BD AI \uC11C\uBE44\uC2A4\uB97C \uC6B4\uC601\uD558\uB294 \uAC83\uC740 \uBE44\uC6A9\uC774 \uB9CE\uC774 \uB4E4\uACE0 \uBCF5\uC7A1\uD55C \uD1B5\uD569 \uAD00\uB9AC\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4.' },
+      ],
+    },
+    solution: {
+      p1: 'SubAgent Swarm\uC740 \uC218\uCC9C \uAC1C\uC758 \uC804\uBB38 \uC5D0\uC774\uC804\uD2B8\uB97C \uBCD1\uB82C\uB85C \uD611\uC5C5\uD558\uB294 \uD601\uC2E0\uC801\uC778 \uC2A4\uC6DC \uC778\uD154\uB9AC\uC804\uC2A4 \uC544\uD0A4\uD14D\uCC98\uB85C \uC774\uB7EC\uD55C \uBB38\uC81C\uB97C \uD574\uACB0\uD569\uB2C8\uB2E4:',
+      features: [
+        { title: '\uC9C0\uB2A5\uD615 \uD0DC\uC2A4\uD06C \uBD84\uD574', desc: '\uBA54\uC778 \uC5D0\uC774\uC804\uD2B8\uAC00 \uBCF5\uC7A1\uD55C \uC694\uCCAD\uC744 \uBD84\uC11D\uD558\uACE0 \uB3C5\uB9BD \uBCD1\uB82C \uC2E4\uD589\uC5D0 \uCD5C\uC801\uD654\uB41C \uC11C\uBE0C\uD0DC\uC2A4\uD06C\uB85C \uC790\uB3D9 \uBD84\uD574\uD569\uB2C8\uB2E4.' },
+        { title: '\uB3D9\uC801 \uC5D0\uC774\uC804\uD2B8 \uC0DD\uC131', desc: '\uAC01 \uC11C\uBE0C\uD0DC\uC2A4\uD06C\uC5D0 \uD2B9\uD654\uB41C \uB2A5\uB825\uC744 \uAC16\uCD98 \uC11C\uBE0C \uC5D0\uC774\uC804\uD2B8\uB97C \uC628\uB514\uB9E8\uB4DC\uB85C \uC0DD\uC131\uD569\uB2C8\uB2E4.' },
+        { title: '\uC2E4\uC2DC\uAC04 \uC870\uC728', desc: '\uD0C8\uC911\uC559\uD654 \uC870\uC728 \uB808\uC774\uC5B4\uAC00 \uC5D0\uC774\uC804\uD2B8 \uAC04 \uD1B5\uC2E0, \uC624\uB958 \uBCF5\uAD6C, \uACB0\uACFC \uC9D1\uACC4\uB97C \uC2E4\uC2DC\uAC04\uC73C\uB85C \uAD00\uB9AC\uD569\uB2C8\uB2E4.' },
+        { title: '\uC628\uCCB4\uC778 \uAC80\uC99D', desc: '\uD0DC\uC2A4\uD06C \uC644\uB8CC\uC640 \uC5D0\uC774\uC804\uD2B8 \uC131\uB2A5 \uC9C0\uD45C\uB97C \uC628\uCCB4\uC778\uC5D0 \uAE30\uB85D\uD558\uC5EC \uD22C\uBA85\uD55C \uBCF4\uC0C1 \uBD84\uBC30\uB97C \uC2E4\uD604\uD569\uB2C8\uB2E4.' },
+      ],
+    },
+    architecture: {
+      p1: 'SubAgent Swarm \uD504\uB85C\uD1A0\uCF5C\uC740 \uCD5C\uB300\uC758 \uD655\uC7A5\uC131\uACFC \uC720\uC5F0\uC131\uC744 \uC704\uD574 \uC124\uACC4\uB41C \uBAA8\uB4C8\uC2DD \uB808\uC774\uC5B4 \uC544\uD0A4\uD14D\uCC98\uB85C \uAD6C\uCD95\uB418\uC5C8\uC2B5\uB2C8\uB2E4:',
+      layers: [
+        { label: '\uC560\uD50C\uB9AC\uCF00\uC774\uC158 \uB808\uC774\uC5B4', color: '#00e5ff', items: ['\uB300\uC2DC\uBCF4\uB4DC UI', 'API \uAC8C\uC774\uD2B8\uC6E8\uC774', 'SDK / CLI'] },
+        { label: '\uC624\uCF00\uC2A4\uD2B8\uB808\uC774\uC158 \uB808\uC774\uC5B4', color: '#7b2ff7', items: ['\uBA54\uC778 \uC5D0\uC774\uC804\uD2B8', '\uD0DC\uC2A4\uD06C \uBD84\uD574\uAE30', '\uC2A4\uC6DC \uCF54\uB514\uB124\uC774\uD130'] },
+        { label: '\uC2E4\uD589 \uB808\uC774\uC5B4', color: '#ff2d95', items: ['\uC11C\uBE0C \uC5D0\uC774\uC804\uD2B8 \uD480', '\uBCD1\uB82C \uB7F0\uD0C0\uC784', '\uACB0\uACFC \uC9D1\uACC4\uAE30'] },
+        { label: '\uBE14\uB85D\uCCB4\uC778 \uB808\uC774\uC5B4', color: '#00ff88', items: ['$SWARM \uD1A0\uD070', '\uC2A4\uD14C\uC774\uD0B9 \uCEE8\uD2B8\uB799\uD2B8', '\uAC70\uBC84\uB10C\uC2A4 DAO'] },
+      ],
+    },
+    token: {
+      p1: '$SWARM \uD1A0\uD070\uC740 SubAgent Swarm \uC0DD\uD0DC\uACC4\uC758 \uACBD\uC81C\uC801 \uAE30\uBC18\uC774\uBA70, \uBAA8\uB4E0 \uCC38\uC5EC\uC790\uC758 \uC774\uC775\uC744 \uC870\uC728\uD558\uB3C4\uB85D \uC2E0\uC911\uD558\uAC8C \uC124\uACC4\uB418\uC5C8\uC2B5\uB2C8\uB2E4:',
+      flows: [
+        { icon: '\uD83D\uDE80', title: '\uBC30\uD3EC', desc: '\uC0AC\uC6A9\uC790\uAC00 $SWARM\uC744 \uC0AC\uC6A9\uD558\uC5EC \uC5D0\uC774\uC804\uD2B8 \uC2A4\uC6DC\uC744 \uBC30\uD3EC\uD569\uB2C8\uB2E4. \uC77C\uBD80\uB294 \uC18C\uAC01\uB418\uC5B4 \uB514\uD50C\uB808\uC774\uC158 \uC555\uB825\uC744 \uC0DD\uC131\uD569\uB2C8\uB2E4.' },
+        { icon: '\uD83C\uDFAF', title: '\uC2A4\uD14C\uC774\uD0B9', desc: '\uD1A0\uD070 \uBCF4\uC720\uC790\uAC00 $SWARM\uC744 \uC2A4\uD14C\uC774\uD0B9\uD558\uC5EC \uD504\uB85C\uD1A0\uCF5C \uC218\uC218\uB8CC\uB97C \uD68D\uB4DD\uD558\uACE0 \uD504\uB9AC\uBBF8\uC5C4 \uAE30\uB2A5\uC744 \uD574\uC81C\uD569\uB2C8\uB2E4.' },
+        { icon: '\uD83D\uDDF3\uFE0F', title: '\uAC70\uBC84\uB10C\uC2A4', desc: '\uC2A4\uD14C\uC774\uCEE4\uAC00 \uD504\uB85C\uD1A0\uCF5C \uD30C\uB77C\uBBF8\uD130, \uC218\uC218\uB8CC \uAD6C\uC870, \uC0DD\uD0DC\uACC4 \uD380\uB4DC \uBC30\uBD84\uC5D0 \uD22C\uD45C\uD569\uB2C8\uB2E4.' },
+        { icon: '\uD83D\uDD25', title: '\uBC88', desc: '\uAC01 \uBC30\uD3EC \uC2DC \uD1A0\uD070\uC774 \uC601\uAD6C\uC801\uC73C\uB85C \uC18C\uAC01\uB418\uC5B4 \uCD1D \uACF5\uAE09\uB7C9\uC774 \uAFB8\uC900\uD788 \uAC10\uC18C\uD569\uB2C8\uB2E4.' },
+      ],
+      linkText: '\uC0C1\uC138 \uD1A0\uD070\uC774\uCF54\uB178\uBBF9\uC2A4 \uBCF4\uAE30',
+    },
+    roadmap: {
+      phases: [
+        { label: 'Q1 2025', title: '\uAE30\uBC18', items: ['\uD504\uB85C\uD1A0\uCF5C \uC544\uD0A4\uD14D\uCC98 \uC124\uACC4', '\uCF54\uC5B4 \uC2A4\uB9C8\uD2B8 \uCEE8\uD2B8\uB799\uD2B8 \uAC1C\uBC1C', '\uD14C\uC2A4\uD2B8\uB137 \uBC30\uD3EC', '$SWARM \uD1A0\uD070 Base \uB860\uCE6D'] },
+        { label: 'Q2 2025', title: '\uC54C\uD30C \uB860\uCE6D', items: ['\uBA54\uC778 \uC5D0\uC774\uC804\uD2B8 v1 \uCD9C\uC2DC', '\uB300\uC2DC\uBCF4\uB4DC \uBCA0\uD0C0', '\uC18C\uC15C \uBBF8\uB514\uC5B4 \uC2A4\uC6DC \uBAA8\uB4C8', '\uCEE4\uBBA4\uB2C8\uD2F0 \uC5D0\uC5B4\uB4DC\uB86D \uCEA0\uD398\uC778'] },
+        { label: 'Q3 2025', title: '\uD655\uC7A5', items: ['\uAC1C\uBC1C \uAC00\uC18D\uD654 \uC2A4\uC6DC \uBAA8\uB4C8', '\uB370\uC774\uD130 \uC218\uC9D1 \uBAA8\uB4C8', '\uC2A4\uD14C\uC774\uD0B9 \uBC0F \uAC70\uBC84\uB10C\uC2A4 \uC2DC\uC791', '\uC804\uB7B5\uC801 \uD30C\uD2B8\uB108\uC2ED'] },
+        { label: 'Q4 2025', title: '\uC2A4\uCF00\uC77C', items: ['\uC644\uC804\uD55C API \uBC0F SDK \uCD9C\uC2DC', '\uD06C\uB85C\uC2A4\uCCB4\uC778 \uD655\uC7A5', '\uC5D4\uD130\uD504\uB77C\uC774\uC988 \uC194\uB8E8\uC158', 'DAO \uC804\uD658'] },
+      ],
+    },
+    disclaimer: {
+      title: '\uBA74\uCC45 \uC870\uD56D',
+      text: '\uBCF8 \uBC31\uC11C\uB294 \uC815\uBCF4 \uC81C\uACF5 \uBAA9\uC801\uC73C\uB85C\uB9CC \uC791\uC131\uB418\uC5C8\uC73C\uBA70, \uC7AC\uBB34 \uC790\uBB38\uC774\uB098 \uD1A0\uD070 \uD310\uB9E4 \uAD8C\uC720\uB97C \uAD6C\uC131\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uC0DD\uD0DC\uACC4 \uCC38\uC5EC\uC5D0\uB294 \uC704\uD5D8\uC774 \uC218\uBC18\uB429\uB2C8\uB2E4. \uC9C1\uC811 \uCDA9\uBD84\uD55C \uC870\uC0AC\uB97C \uC218\uD589\uD558\uC2ED\uC2DC\uC624.',
+    },
+    ctaTitle: '\uBBF8\uB798\uB97C \uAD6C\uCD95\uD560 \uC900\uBE44\uAC00 \uB418\uC168\uB098\uC694?',
+    ctaDesc: '$SWARM \uD1A0\uD070\uC774\uCF54\uB178\uBBF9\uC2A4\uB97C \uD0D0\uC0C9\uD558\uAC70\uB098 \uBA54\uC778 \uD398\uC774\uC9C0\uB85C \uB3CC\uC544\uAC00 \uC2DC\uC791\uD558\uC138\uC694.',
+    ctaBtn1: '\uD1A0\uD070\uC774\uCF54\uB178\uBBF9\uC2A4 \uBCF4\uAE30 \u2192',
+    ctaBtn2: '\uD648\uC73C\uB85C \uB3CC\uC544\uAC00\uAE30',
+  },
+};
