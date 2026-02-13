@@ -24,6 +24,9 @@ export default function Navbar() {
         <li>{isLanding ? <a href="#how-it-works">{t.nav.howItWorks}</a> : <Link to="/#how-it-works">{t.nav.howItWorks}</Link>}</li>
         <li><Link to="/tokenomics" className={location.pathname === '/tokenomics' ? 'nav-active' : ''}>{t.nav.tokenomics}</Link></li>
         <li><Link to="/whitepaper" className={location.pathname === '/whitepaper' ? 'nav-active' : ''}>{t.nav.whitepaper}</Link></li>
+        {isConnected && (
+          <li><Link to="/dashboard" className={location.pathname === '/dashboard' ? 'nav-active' : ''}>{t.nav.launchApp}</Link></li>
+        )}
       </ul>
       <div className="navbar-right">
         <WalletButton />

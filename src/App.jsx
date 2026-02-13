@@ -23,7 +23,8 @@ function AppContent() {
       <Navbar />
       <TickerBar />
       <Routes>
-        <Route path="/" element={isConnected ? <Dashboard /> : <LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/tokenomics" element={<Tokenomics />} />
         <Route path="/whitepaper" element={<Whitepaper />} />
       </Routes>
