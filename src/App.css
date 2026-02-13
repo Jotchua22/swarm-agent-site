@@ -2194,7 +2194,7 @@
   left: 0;
   right: 0;
   z-index: 99;
-  height: 32px;
+  height: 40px;
   background: rgba(6, 6, 14, 0.92);
   border-bottom: 1px solid rgba(0, 229, 255, 0.08);
   backdrop-filter: blur(12px);
@@ -2206,12 +2206,12 @@
 .ticker-ca-strip {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.8rem;
 }
 
 .ticker-ca-label {
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: var(--cyan);
   letter-spacing: 1.5px;
@@ -2219,7 +2219,7 @@
 
 .ticker-ca-addr {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   color: var(--text-secondary);
   letter-spacing: 0.3px;
   user-select: all;
@@ -2229,14 +2229,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
   border: 1px solid rgba(0, 229, 255, 0.15);
   background: rgba(0, 229, 255, 0.04);
   color: var(--cyan);
   cursor: pointer;
   transition: all 0.2s;
-  min-width: 56px;
+  min-width: 62px;
 }
 
 .ticker-copy-btn:hover {
@@ -2246,7 +2246,7 @@
 
 .ticker-copied-text {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--cyan);
   letter-spacing: 0.5px;
@@ -2254,15 +2254,15 @@
 
 /* Adjust hero and pages for ticker bar height */
 .hero {
-  padding-top: calc(8rem + 32px);
+  padding-top: calc(8rem + 40px);
 }
 
 .page-hero {
-  padding-top: calc(8rem + 32px);
+  padding-top: calc(8rem + 40px);
 }
 
 .dashboard {
-  padding-top: calc(6rem + 32px);
+  padding-top: calc(6rem + 40px);
 }
 
 @media (max-width: 768px) {
@@ -2275,15 +2275,15 @@
   }
 
   .hero {
-    padding-top: calc(7rem + 32px);
+    padding-top: calc(7rem + 40px);
   }
 
   .page-hero {
-    padding-top: calc(7rem + 32px);
+    padding-top: calc(7rem + 40px);
   }
 
   .dashboard {
-    padding-top: calc(5rem + 32px);
+    padding-top: calc(5rem + 40px);
   }
 }
 
