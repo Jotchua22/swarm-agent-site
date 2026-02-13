@@ -20,10 +20,10 @@ export default function Navbar() {
     >
       <Link to="/" className="navbar-logo">SUBAGENT SWARM</Link>
       <ul className="navbar-links">
-        {isLanding && !isConnected && (
+        {!isConnected && (
           <>
-            <li><a href="#features">{t.nav.features}</a></li>
-            <li><a href="#how-it-works">{t.nav.howItWorks}</a></li>
+            <li>{isLanding ? <a href="#features">{t.nav.features}</a> : <Link to="/#features">{t.nav.features}</Link>}</li>
+            <li>{isLanding ? <a href="#how-it-works">{t.nav.howItWorks}</a> : <Link to="/#how-it-works">{t.nav.howItWorks}</Link>}</li>
           </>
         )}
         <li><Link to="/tokenomics" className={location.pathname === '/tokenomics' ? 'nav-active' : ''}>{t.nav.tokenomics}</Link></li>
