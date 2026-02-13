@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLang } from '../i18n/LanguageContext';
 
 const SWARM_PRICE = 0.00847;
-const UNISWAP_URL = 'https://app.uniswap.org/swap?chain=base&outputCurrency=0x21C1EdBDd48468a59E00CA71F0B40b3c5918F7a3';
+const UNISWAP_URL = '#';
 
 export default function BuyWidget() {
   const { t } = useLang();

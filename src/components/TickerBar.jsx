@@ -1,7 +1,7 @@
 import { useState, useCallback } from 'react';
 import { useLang } from '../i18n/LanguageContext';
 
-const CONTRACT_ADDRESS = '0x21C1EdBDd48468a59E00CA71F0B40b3c5918F7a3';
+const CONTRACT_ADDRESS = 'TBA';
 
 export default function TickerBar() {
   const { t } = useLang();

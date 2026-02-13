@@ -16,7 +16,7 @@ export default function CtaSection() {
         <h2 className="cta-title">{t.cta.title}</h2>
         <p className="cta-desc">{t.cta.desc}</p>
         <a
-          href="https://app.uniswap.org/swap?chain=base&outputCurrency=0x21C1EdBDd48468a59E00CA71F0B40b3c5918F7a3"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"
