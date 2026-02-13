@@ -17,8 +17,7 @@ const tokenDistribution = [
   { key: 'development', pct: 15, color: '#7b2ff7', offset: 40 },
   { key: 'liquidity', pct: 15, color: '#ff2d95', offset: 55 },
   { key: 'team', pct: 15, color: '#00ff88', offset: 70 },
-  { key: 'marketing', pct: 10, color: '#ffaa00', offset: 85 },
-  { key: 'presale', pct: 5, color: '#ff6b6b', offset: 95 },
+  { key: 'marketing', pct: 15, color: '#ffaa00', offset: 85 },
 ];
 
 const vestingData = [
@@ -27,7 +26,6 @@ const vestingData = [
   { key: 'liquidity', cliff: '0', vesting: '0', tge: '100%' },
   { key: 'team', cliff: '12', vesting: '36', tge: '0%' },
   { key: 'marketing', cliff: '3', vesting: '18', tge: '5%' },
-  { key: 'presale', cliff: '0', vesting: '6', tge: '20%' },
 ];
 
 export default function Tokenomics() {

@@ -61,6 +61,10 @@ export const translations = {
         statuses: { success: 'Complete', running: 'Running', warning: 'Warning' },
       },
     },
+    ticker: { price: '$SWARM', change: '24H', mcap: 'MCap', holders: 'Holders', burned: 'Burned', copyCA: 'Copy Contract Address', copied: 'Copied!' },
+    burn: { tag: '// Deflationary', title: 'The Furnace', subtitle: 'Watch $SWARM tokens being burned in real-time', burned: 'TOKENS BURNED', feedTitle: 'Live Burn Events', totalBurned: 'Total Burned', dailyRate: 'Daily Burn Rate', remaining: 'Remaining Supply', supplyBurned: 'Supply Burned' },
+    buyWidget: { buyBtn: 'BUY $SWARM', swapTitle: 'Quick Swap', from: 'From', to: 'To (estimated)', priceLabel: 'Price', slippage: 'Slippage', minReceived: 'Min. Received', swapBtn: 'Swap on Uniswap' },
+    swarmNet: { tag: '// Live Network', title: 'The Hive Mind', subtitle: 'Real-time visualization of the autonomous agent swarm', active: 'Active', idle: 'Idle', statAgents: 'Active Agents', statTasks: 'Tasks / Sec', statEfficiency: 'Efficiency', statUptime: 'Uptime' },
   },
 
   zh: {
@@ -125,6 +129,10 @@ export const translations = {
         statuses: { success: '完成', running: '运行中', warning: '警告' },
       },
     },
+    ticker: { price: '$SWARM', change: '24H', mcap: '市值', holders: '持有者', burned: '已销毁', copyCA: '复制合约地址', copied: '已复制!' },
+    burn: { tag: '// 通缩机制', title: '熔炉', subtitle: '实时观看$SWARM代币销毁', burned: '已销毁代币', feedTitle: '实时销毁事件', totalBurned: '总销毁量', dailyRate: '每日销毁率', remaining: '剩余供应', supplyBurned: '供应销毁比' },
+    buyWidget: { buyBtn: '购买 $SWARM', swapTitle: '快速兑换', from: '从', to: '至（预估）', priceLabel: '价格', slippage: '滑点', minReceived: '最少收到', swapBtn: '在Uniswap兑换' },
+    swarmNet: { tag: '// 实时网络', title: '蜂巢思维', subtitle: '自主代理蜂群实时可视化', active: '活跃', idle: '空闲', statAgents: '活跃代理', statTasks: '任务/秒', statEfficiency: '效率', statUptime: '运行时间' },
   },
 
   es: {
@@ -189,6 +197,10 @@ export const translations = {
         statuses: { success: 'Completo', running: 'Ejecutando', warning: 'Advertencia' },
       },
     },
+    ticker: { price: '$SWARM', change: '24H', mcap: 'Cap. Mercado', holders: 'Titulares', burned: 'Quemados', copyCA: 'Copiar Dirección del Contrato', copied: 'Copiado!' },
+    burn: { tag: '// Deflacionario', title: 'El Horno', subtitle: 'Observa tokens $SWARM siendo quemados en tiempo real', burned: 'TOKENS QUEMADOS', feedTitle: 'Eventos de Quema en Vivo', totalBurned: 'Total Quemado', dailyRate: 'Tasa Diaria', remaining: 'Suministro Restante', supplyBurned: 'Suministro Quemado' },
+    buyWidget: { buyBtn: 'COMPRAR $SWARM', swapTitle: 'Intercambio Rápido', from: 'Desde', to: 'A (estimado)', priceLabel: 'Precio', slippage: 'Deslizamiento', minReceived: 'Mín. Recibido', swapBtn: 'Intercambiar en Uniswap' },
+    swarmNet: { tag: '// Red en Vivo', title: 'La Mente Colmena', subtitle: 'Visualización en tiempo real del enjambre de agentes autónomos', active: 'Activo', idle: 'Inactivo', statAgents: 'Agentes Activos', statTasks: 'Tareas / Seg', statEfficiency: 'Eficiencia', statUptime: 'Tiempo Activo' },
   },
 
   ja: {
@@ -253,6 +265,10 @@ export const translations = {
         statuses: { success: '完了', running: '実行中', warning: '警告' },
       },
     },
+    ticker: { price: '$SWARM', change: '24H', mcap: '時価総額', holders: 'ホルダー', burned: 'バーン済', copyCA: 'コントラクトアドレスをコピー', copied: 'コピー済み!' },
+    burn: { tag: '// デフレーション', title: 'ファーネス', subtitle: '$SWARMトークンのリアルタイムバーンを見る', burned: 'バーン済トークン', feedTitle: 'ライブバーンイベント', totalBurned: '総バーン量', dailyRate: '日次バーン率', remaining: '残存供給量', supplyBurned: '供給バーン率' },
+    buyWidget: { buyBtn: '$SWARM購入', swapTitle: 'クイックスワップ', from: '送信元', to: '受取先（推定）', priceLabel: '価格', slippage: 'スリッページ', minReceived: '最小受取量', swapBtn: 'Uniswapでスワップ' },
+    swarmNet: { tag: '// ライブネットワーク', title: 'ハイブマインド', subtitle: '自律エージェントスウォームのリアルタイム可視化', active: 'アクティブ', idle: 'アイドル', statAgents: 'アクティブエージェント', statTasks: 'タスク/秒', statEfficiency: '効率', statUptime: '稼働時間' },
   },
 
   ko: {
@@ -317,6 +333,10 @@ export const translations = {
         statuses: { success: '완료', running: '실행 중', warning: '경고' },
       },
     },
+    ticker: { price: '$SWARM', change: '24H', mcap: '시가총액', holders: '홀더', burned: '소각량', copyCA: '컨트랙트 주소 복사', copied: '복사됨!' },
+    burn: { tag: '// 디플레이션', title: '소각로', subtitle: '$SWARM 토큰이 실시간으로 소각되는 것을 확인하세요', burned: '소각된 토큰', feedTitle: '실시간 소각 이벤트', totalBurned: '총 소각량', dailyRate: '일일 소각률', remaining: '남은 공급량', supplyBurned: '공급 소각 비율' },
+    buyWidget: { buyBtn: '$SWARM 구매', swapTitle: '빠른 스왑', from: '보내는 토큰', to: '받는 토큰 (예상)', priceLabel: '가격', slippage: '슬리피지', minReceived: '최소 수령량', swapBtn: 'Uniswap에서 스왑' },
+    swarmNet: { tag: '// 라이브 네트워크', title: '하이브 마인드', subtitle: '자율 에이전트 스웜의 실시간 시각화', active: '활성', idle: '대기', statAgents: '활성 에이전트', statTasks: '작업 / 초', statEfficiency: '효율성', statUptime: '가동 시간' },
   },
 };
 
