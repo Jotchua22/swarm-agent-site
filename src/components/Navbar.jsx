@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useAccount } from 'wagmi';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useConnectModal } from '@rainbow-me/rainbowkit';
 import { useLang } from '../i18n/LanguageContext';
 import LangSwitcher from './LangSwitcher';
 import WalletButton from './WalletButton';
@@ -8,7 +9,9 @@ import WalletButton from './WalletButton';
 export default function Navbar() {
   const { t } = useLang();
   const { isConnected } = useAccount();
+  const { openConnectModal } = useConnectModal();
   const location = useLocation();
+  const navigate = useNavigate();
   const isLanding = location.pathname === '/';
 
   const launchBtnStyle = {
@@ -27,6 +30,15 @@ export default function Navbar() {
       '0 0 10px rgba(0,240,255,0.75), 0 0 24px rgba(0,240,255,0.5), 0 0 40px rgba(0,240,255,0.3)',
     textShadow: '0 0 10px rgba(0,240,255,1), 0 0 20px rgba(0,240,255,0.7), 0 0 30px rgba(0,240,255,0.45)',
     transform: 'translateY(-2px)'
+  };
+
+  const handleLaunchClick = (e) => {
+    e.preventDefault();
+    if (isConnected) {
+      navigate('/dashboard');
+      return;
+    }
+    openConnectModal?.();
   };
 
   return (
@@ -69,22 +81,21 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {isConnected && (
-          <li>
-            <Link
-              to="/dashboard"
-              style={launchBtnStyle}
-              onMouseEnter={(e) => {
-                Object.assign(e.target.style, launchBtnHover);
-              }}
-              onMouseLeave={(e) => {
-                Object.assign(e.target.style, launchBtnStyle);
-              }}
-            >
-              {t.nav.launchApp}
-            </Link>
-          </li>
-        )}
+        <li>
+          <a
+            href={isConnected ? '/dashboard' : '#'}
+            style={launchBtnStyle}
+            onClick={handleLaunchClick}
+            onMouseEnter={(e) => {
+              Object.assign(e.target.style, launchBtnHover);
+            }}
+            onMouseLeave={(e) => {
+              Object.assign(e.target.style, launchBtnStyle);
+            }}
+          >
+            {isConnected ? t.nav.launchApp : t.wallet.connect}
+          </a>
+        </li>
       </ul>
       <div className="navbar-right">
         <WalletButton />
